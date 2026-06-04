@@ -1,0 +1,4849 @@
+{
+  "operationalLayers": [
+    {
+      "id": "1936c43b97c-layer-28",
+      "showLegend": false,
+      "disablePopup": true,
+      "title": "全国都道府県界",
+      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/zenkokutodofukenkai/FeatureServer/0",
+      "itemId": "cee3b3f7ed4b4826a7dc5c074040ef2c",
+      "layerType": "ArcGISFeatureLayer",
+      "featureEffect": null,
+      "layerDefinition": {
+        "definitionExpression": "KEN <> N'埼玉県'",
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSFS",
+              "color": [
+                189,
+                192,
+                255,
+                77
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  110,
+                  110,
+                  110,
+                  255
+                ],
+                "width": 0.698,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            }
+          }
+        }
+      },
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "description": "",
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": true
+              },
+              {
+                "fieldName": "JCODE",
+                "isEditable": true,
+                "label": "都道府県コード",
+                "visible": true
+              },
+              {
+                "fieldName": "KEN",
+                "isEditable": true,
+                "label": "都道府県名",
+                "visible": true
+              },
+              {
+                "fieldName": "KEN_ENG",
+                "isEditable": true,
+                "label": "都道府県名(英語)",
+                "visible": true
+              },
+              {
+                "fieldName": "P_NUM",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "人口",
+                "visible": true
+              },
+              {
+                "fieldName": "H_NUM",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "世帯数",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Area",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "isEditable": false,
+                "label": "Shape__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Length",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "isEditable": false,
+                "label": "Shape__Length",
+                "visible": true
+              }
+            ],
+            "title": ""
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "isEditable": false,
+            "label": "OBJECTID",
+            "visible": true
+          },
+          {
+            "fieldName": "JCODE",
+            "isEditable": true,
+            "label": "都道府県コード",
+            "visible": true
+          },
+          {
+            "fieldName": "KEN",
+            "isEditable": true,
+            "label": "都道府県名",
+            "visible": true
+          },
+          {
+            "fieldName": "KEN_ENG",
+            "isEditable": true,
+            "label": "都道府県名(英語)",
+            "visible": true
+          },
+          {
+            "fieldName": "P_NUM",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "人口",
+            "visible": true
+          },
+          {
+            "fieldName": "H_NUM",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "世帯数",
+            "visible": true
+          },
+          {
+            "fieldName": "Shape__Area",
+            "format": {
+              "digitSeparator": false,
+              "places": 6
+            },
+            "isEditable": false,
+            "label": "Shape__Area",
+            "visible": true
+          },
+          {
+            "fieldName": "Shape__Length",
+            "format": {
+              "digitSeparator": false,
+              "places": 6
+            },
+            "isEditable": false,
+            "label": "Shape__Length",
+            "visible": true
+          }
+        ],
+        "title": "{KEN}"
+      }
+    },
+    {
+      "id": "1936c434b31-layer-27",
+      "showLegend": false,
+      "disablePopup": true,
+      "title": "埼玉県市町村界",
+      "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/埼玉県市町村界/FeatureServer/0",
+      "itemId": "6057398866a340df91915663399a7d3a",
+      "layerType": "ArcGISFeatureLayer",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "description": "",
+            "fieldInfos": [
+              {
+                "fieldName": "Shape__Area",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "Shape__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Length",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "Shape__Length",
+                "visible": true
+              },
+              {
+                "fieldName": "現在の",
+                "isEditable": true,
+                "label": "現在の",
+                "visible": true
+              }
+            ],
+            "title": ""
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "FID",
+            "isEditable": false,
+            "label": "FID",
+            "visible": false
+          },
+          {
+            "fieldName": "Shape__Area",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": false,
+            "label": "Shape__Area",
+            "visible": true
+          },
+          {
+            "fieldName": "Shape__Length",
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            },
+            "isEditable": false,
+            "label": "Shape__Length",
+            "visible": true
+          },
+          {
+            "fieldName": "現在の",
+            "isEditable": true,
+            "label": "現在の",
+            "visible": true
+          }
+        ],
+        "title": "埼玉県市町村界_さいたま市区部マージ"
+      },
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSFS",
+              "color": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  0,
+                  0,
+                  0,
+                  255
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "style": "esriSFSSolid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "1936c224cca-layer-24",
+      "title": "未発生確認",
+      "visibility": false,
+      "layers": [
+        {
+          "id": "1936c1623a7-layer-9",
+          "title": "クビアカ発生未確認2018年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ発生未確認2018年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "f7299b4fdfc74809890d46484975a94e",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "確認日",
+                    "format": {
+                      "dateFormat": "shortDate",
+                      "digitSeparator": false
+                    },
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村名",
+                    "isEditable": true,
+                    "label": "市町村名",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認場所",
+                    "isEditable": true,
+                    "label": "施設名",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "調査数",
+                    "isEditable": true,
+                    "label": "調査本数",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "ObjectId",
+                "isEditable": false,
+                "label": "ObjectId",
+                "visible": false
+              },
+              {
+                "fieldName": "CESS確認結果",
+                "isEditable": true,
+                "label": "CESS確認結果",
+                "visible": false
+              },
+              {
+                "fieldName": "緯度",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "緯度",
+                "visible": false
+              },
+              {
+                "fieldName": "確認場所",
+                "isEditable": true,
+                "label": "施設名",
+                "visible": true
+              },
+              {
+                "fieldName": "確認内容",
+                "isEditable": true,
+                "label": "確認内容",
+                "visible": false
+              },
+              {
+                "fieldName": "確認日",
+                "format": {
+                  "dateFormat": "shortDate",
+                  "digitSeparator": false
+                },
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "経度",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "経度",
+                "visible": false
+              },
+              {
+                "fieldName": "市町村名",
+                "isEditable": true,
+                "label": "市町村名",
+                "visible": true
+              },
+              {
+                "fieldName": "樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "調査数",
+                "isEditable": true,
+                "label": "調査本数",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ発生未確認2018年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriPMS",
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 12,
+                  "contentType": "image/png",
+                  "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NTI4MDNBQTZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NTI4MDNBQjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU1MjgwM0E4NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU1MjgwM0E5NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                  "url": "https://static.arcgis.com/images/Symbols/Basic1/Blue_1_Tear_Pin1.png",
+                  "height": 15,
+                  "width": 15
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c1616d5-layer-8",
+          "title": "クビアカ発生未確認2019年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ発生未確認2019年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "ab89bf60805f496f97b153576e82e2c9",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "現地確認日",
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村名",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認場所",
+                    "isEditable": true,
+                    "label": "施設名",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "調査数",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "調査数",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "ObjectId",
+                "isEditable": false,
+                "label": "ObjectId",
+                "visible": false
+              },
+              {
+                "fieldName": "緯度",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "緯度",
+                "visible": false
+              },
+              {
+                "fieldName": "確認場所",
+                "isEditable": true,
+                "label": "施設名",
+                "visible": true
+              },
+              {
+                "fieldName": "経度",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "経度",
+                "visible": false
+              },
+              {
+                "fieldName": "現地確認日",
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村名",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "調査数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "調査数",
+                "visible": true
+              },
+              {
+                "fieldName": "発生確認状況",
+                "isEditable": true,
+                "label": "発生確認状況",
+                "visible": false
+              }
+            ],
+            "title": "クビアカ発生未確認2019年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriPMS",
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 12,
+                  "contentType": "image/png",
+                  "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NTI4MDNBQTZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NTI4MDNBQjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU1MjgwM0E4NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU1MjgwM0E5NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7E54tQAABetJREFUeF7tnc1xnEoYRR3CC8EhOASF4BAcgkJwBg7BIXitlUNQCA7BVUpApmk0b5g5DH99L/DRp+ps7sIeLoJpuoH59P7+Xg0uhtVYYliNJYbVWGJYjSWG1VhiWI0lhtVYYliNJYbVWGJYjSWG1Vhi6FDKy9tT43Pjz8bfje8jvjb+avze+NT9KzKoD6UYOizOy9vXxrRT/zbSjpxr2unfGv/r/odiUB9KMXRYhJe3z43p6Cu1Y4dMfzyfu/91NdSHUgwdriIdXS9vP7od4LTIzqY+lGLocDH5u1Z95I6Zzh6LT+PUh1IMHc4mn5qnDKJc/mn80n26WVAfSjF0OIs8qNr66B3yufuUk6E+lGLocDJ5hEvl7smf3aedBPWhFEOHk8gDHSp1j6bPOul7mvpQiqHDUY61gz/81X36h1AfSjF0+JBjnKKHHD11Ux9KMXQ4SJ6SpPKO5PduaxDqQymGDpF8mbTXUfRcB+fAqQ+lGDpE9nUdvNb0x4oDMepDKYYO78gzWVTWkcXvZ+pDKYYOe+S56Cin6VvvTtvUh1IMHfbIc8FUUAR/d1t5gfpQiqHDC7GP4g97RzP1oRRDhxdiH8Uf9iZJqA+lGDq8kFdzqJhoXtahqQ+lGDpsyatLVEhELxMk1IdSDB22HHN+eqmveaPPt5PPcqr+sD1lUx9KMXTYbPCXmwLO4Lez7eQjrzQttZ0Boz6UYuiw2eAt7rbc2nZihPpQiqHDdoO5iNiebCenR1O4iMiebCdzCfF9oj6UYugQNv4s1p18AutOPoF1J5/AU+3kOro2iaHDZoPPeJ3892w7+Qw3C9x6uhmvM60lf9iuKVMfSjF02GxwureLiohse68X9aEUQ4ct+eUrVEZE2+/jBPWhFEOHLedabrzcaE99KMXQYcu5Ttlf80afbScnznGf159ua1uoD6UYOryQBiNcTCR7j7JSH0oxdNgj/uxX7+lG6kMphg57xB6A3T3ZSH0oxdDhHXFvz717gx/1oRRDh3fEPJrr88l3xDua8T2c1IdSDB0isY5mPIoT1IdSDB0OEmMJcvB9IQnqQymGDgeJcd1cX/GUfMixFy7SuOLh6xepD6UYOnxIfp8XFXgE24faHkF9KMXQ4SjHvHPk7iUwBPWhFEOHo+QVqqNdUk16yTn1oRRDh5M41i1CP7pPPQr1oRRDh5M5xiXVw0umW6gPpRg6nEwehO39PV+jg61rqA+lGDqcxb4HYZMGW9dQH0oxdDib/Q7CZv+iDPWhFEOHs9nnTNjkwdY11IdSDB0uYl8zYaMzW0NQH0oxdLiIfO28l0HY5e7LuVAfSjF0uJh9vPx89mDrGupDKYYOV7HtjX/pTLLqRzmpD6UYOlzFtm/ze7iMOAXqQymGDlezzcveejfJL4X6UIqhw9VsMwgr8lP41IdSDB0WwXtP2KSf6JsC9aEUQ4fF8C1grBpsXUN9KMXQYTE8M2GrB1vXUB9KMXRYFO2TkYtntoagPpRi6LAo2uXIWcuIU6A+lGLosDia5chVM1tDUB9KMXRYnHxJVXo5ssgl0y3Uh1IMHUooe0lV7JLpFupDKYYOZZQ7motdMt1CfSjF0KGMMpdUgw+rlYD6UIqhQynrJkhWrzKNQX0oxdChlHVHc9GJD4L6UIqhQznLjuZ0FBed+CCoD6UYOpSz7GiWH8UJ6kMphg4tzD+a5UdxgvpQiqFDC/OepZKOqK+hPpRi6NDG9Otm6Yj6GupDKYYObUybBbMdxQnqQymGDq2Mr1BJ5qiHoD6UYujQyuMVKslK0yOoD6UYOrSS15tpByeLrxePQX0oxdChHX6O6vKTAU6oD6UYOrTDl1OLnkpcC/WhFEOHm3B/OWW7bLqG+lCKocNN6D918dqldqgPpRg63IT+M1TPXWqH+lCKocPN+P+UvcmpOkF9KMXQ4WbkU7b92vga6kMphg43I5+yNztVJ6gPpRhWY4lhNZYYVmOJYTWWGFZjiWE1lhhWY4lhNZYYVmOJYTWWGFZjiWE1ku+f/gGgDJ96ImorRwAAAABJRU5ErkJggg==",
+                  "url": "https://static.arcgis.com/images/Symbols/Basic1/Blue_1_Tear_Pin1.png",
+                  "height": 15,
+                  "width": 15
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c1609a8-layer-7",
+          "title": "クビアカ発生未確認2020年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ発生未確認2020年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "df87ef937e894185b57f52dc7dbd2da4",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "現地確認日",
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村名",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "大字名",
+                    "isEditable": true,
+                    "label": "大字等",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "施設名称",
+                    "isEditable": true,
+                    "label": "施設名称",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "調査数",
+                    "isEditable": true,
+                    "label": "調査本数",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "ObjectId",
+                "isEditable": false,
+                "label": "ObjectId",
+                "visible": false
+              },
+              {
+                "fieldName": "緯度",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "緯度",
+                "visible": false
+              },
+              {
+                "fieldName": "経度",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "経度",
+                "visible": false
+              },
+              {
+                "fieldName": "現地確認日",
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村名",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "施設名称",
+                "isEditable": true,
+                "label": "施設名称",
+                "visible": true
+              },
+              {
+                "fieldName": "樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "大字名",
+                "isEditable": true,
+                "label": "大字等",
+                "visible": true
+              },
+              {
+                "fieldName": "調査数",
+                "isEditable": true,
+                "label": "調査本数",
+                "visible": true
+              },
+              {
+                "fieldName": "発生確認状況",
+                "isEditable": true,
+                "label": "発生確認状況",
+                "visible": false
+              }
+            ],
+            "title": "クビアカ発生未確認2020年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriPMS",
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 12,
+                  "contentType": "image/png",
+                  "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NTI4MDNBQTZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NTI4MDNBQjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU1MjgwM0E4NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU1MjgwM0E5NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                  "url": "https://static.arcgis.com/images/Symbols/Basic1/Blue_1_Tear_Pin1.png",
+                  "height": 15,
+                  "width": 15
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c15e0d7-layer-5",
+          "title": "クビアカ発生未確認2021年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ発生未確認2021年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "5b013dada04c47f9992b531d9a3354b9",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "現地確認日",
+                    "format": {
+                      "dateFormat": "shortDate",
+                      "digitSeparator": false
+                    },
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "大字",
+                    "isEditable": true,
+                    "label": "大字等",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "施設名",
+                    "isEditable": true,
+                    "label": "施設名",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "調査本数",
+                    "isEditable": true,
+                    "label": "調査本数",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "ObjectId",
+                "isEditable": false,
+                "label": "ObjectId",
+                "visible": false
+              },
+              {
+                "fieldName": "LAT",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LAT",
+                "visible": false
+              },
+              {
+                "fieldName": "LON",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LON",
+                "visible": false
+              },
+              {
+                "fieldName": "現地確認日",
+                "format": {
+                  "dateFormat": "shortDate",
+                  "digitSeparator": false
+                },
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "施設名",
+                "isEditable": true,
+                "label": "施設名",
+                "visible": true
+              },
+              {
+                "fieldName": "樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "大字",
+                "isEditable": true,
+                "label": "大字等",
+                "visible": true
+              },
+              {
+                "fieldName": "地点No",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "地点No",
+                "visible": false
+              },
+              {
+                "fieldName": "調査本数",
+                "isEditable": true,
+                "label": "調査本数",
+                "visible": true
+              },
+              {
+                "fieldName": "発生確認状況",
+                "isEditable": true,
+                "label": "発生確認状況",
+                "visible": false
+              }
+            ],
+            "title": "クビアカ発生未確認2021年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriPMS",
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 12,
+                  "contentType": "image/png",
+                  "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NTI4MDNBQTZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NTI4MDNBQjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU1MjgwM0E4NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU1MjgwM0E5NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                  "url": "https://static.arcgis.com/images/Symbols/Basic1/Blue_1_Tear_Pin1.png",
+                  "height": 15,
+                  "width": 15
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c15f93c-layer-6",
+          "title": "クビアカ発生未確認2022年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ発生未確認2022年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "303bfa79d7dd4d80aff6265247f9d0fc",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "現地確認日",
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "大字",
+                    "isEditable": true,
+                    "label": "大字等",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "施設名",
+                    "isEditable": true,
+                    "label": "施設名",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "調査本数",
+                    "isEditable": true,
+                    "label": "調査本数",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "ObjectId",
+                "isEditable": false,
+                "label": "ObjectId",
+                "visible": false
+              },
+              {
+                "fieldName": "LAT",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LAT",
+                "visible": false
+              },
+              {
+                "fieldName": "LON",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LON",
+                "visible": false
+              },
+              {
+                "fieldName": "現地確認日",
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "施設名",
+                "isEditable": true,
+                "label": "施設名",
+                "visible": true
+              },
+              {
+                "fieldName": "樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "住所",
+                "isEditable": true,
+                "label": "住所",
+                "visible": false
+              },
+              {
+                "fieldName": "大字",
+                "isEditable": true,
+                "label": "大字等",
+                "visible": true
+              },
+              {
+                "fieldName": "地点No",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "地点No",
+                "visible": false
+              },
+              {
+                "fieldName": "調査者",
+                "isEditable": true,
+                "label": "調査者",
+                "visible": false
+              },
+              {
+                "fieldName": "調査本数",
+                "isEditable": true,
+                "label": "調査本数",
+                "visible": true
+              },
+              {
+                "fieldName": "発生確認状況",
+                "isEditable": true,
+                "label": "発生確認状況",
+                "visible": false
+              }
+            ],
+            "title": "クビアカ発生未確認2022年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriPMS",
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 12,
+                  "contentType": "image/png",
+                  "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NTI4MDNBQTZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NTI4MDNBQjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU1MjgwM0E4NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU1MjgwM0E5NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                  "url": "https://static.arcgis.com/images/Symbols/Basic1/Blue_1_Tear_Pin1.png",
+                  "height": 15,
+                  "width": 15
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c15d174-layer-4",
+          "title": "クビアカ発生未確認2023年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ発生未確認2023年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "fc43c626ccd94b3a8ff026e051abac57",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "現地確認日",
+                    "format": {
+                      "dateFormat": "shortDate",
+                      "digitSeparator": false
+                    },
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "大字",
+                    "isEditable": true,
+                    "label": "大字等",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "施設名",
+                    "isEditable": true,
+                    "label": "施設名",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "調査本数",
+                    "isEditable": true,
+                    "label": "調査本数",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "ObjectId",
+                "isEditable": false,
+                "label": "ObjectId",
+                "visible": false
+              },
+              {
+                "fieldName": "LAT",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LAT",
+                "visible": false
+              },
+              {
+                "fieldName": "LON",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LON",
+                "visible": false
+              },
+              {
+                "fieldName": "現地確認日",
+                "format": {
+                  "dateFormat": "shortDate",
+                  "digitSeparator": false
+                },
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "施設名",
+                "isEditable": true,
+                "label": "施設名",
+                "visible": true
+              },
+              {
+                "fieldName": "樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "住所",
+                "isEditable": true,
+                "label": "住所",
+                "visible": false
+              },
+              {
+                "fieldName": "情報元",
+                "isEditable": true,
+                "label": "情報元",
+                "visible": false
+              },
+              {
+                "fieldName": "大字",
+                "isEditable": true,
+                "label": "大字等",
+                "visible": true
+              },
+              {
+                "fieldName": "地点No",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "地点No",
+                "visible": false
+              },
+              {
+                "fieldName": "地点掲載の可否",
+                "isEditable": true,
+                "label": "地点掲載の可否",
+                "visible": false
+              },
+              {
+                "fieldName": "調査者",
+                "isEditable": true,
+                "label": "調査者",
+                "visible": false
+              },
+              {
+                "fieldName": "調査本数",
+                "isEditable": true,
+                "label": "調査本数",
+                "visible": true
+              },
+              {
+                "fieldName": "嶋田位置修正",
+                "isEditable": true,
+                "label": "嶋田位置修正",
+                "visible": false
+              },
+              {
+                "fieldName": "発生確認状況",
+                "isEditable": true,
+                "label": "発生確認状況",
+                "visible": false
+              }
+            ],
+            "title": "クビアカ発生未確認2023年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriPMS",
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 12,
+                  "contentType": "image/png",
+                  "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NTI4MDNBQTZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NTI4MDNBQjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU1MjgwM0E4NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU1MjgwM0E5NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                  "url": "https://static.arcgis.com/images/Symbols/Basic1/Blue_1_Tear_Pin1.png",
+                  "height": 15,
+                  "width": 15
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "196b3d0f1ca-layer-30",
+          "title": "クビアカ発生未確認2024年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ2024発生未確認New/FeatureServer/0",
+          "visibility": true,
+          "itemId": "411b583511bd41be864b547d038ecb56",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "現地確認日",
+                    "format": {
+                      "dateFormat": "shortDate",
+                      "digitSeparator": false
+                    },
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "大字",
+                    "isEditable": true,
+                    "label": "大字",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "施設名",
+                    "isEditable": true,
+                    "label": "施設名",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "調査本数",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "調査本数",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "FID",
+                "isEditable": false,
+                "label": "FID",
+                "visible": false
+              },
+              {
+                "fieldName": "LAT",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LAT",
+                "visible": false
+              },
+              {
+                "fieldName": "LON",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LON",
+                "visible": false
+              },
+              {
+                "fieldName": "現地確認日",
+                "format": {
+                  "dateFormat": "shortDate",
+                  "digitSeparator": false
+                },
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "施設区分",
+                "isEditable": true,
+                "label": "施設区分",
+                "visible": false
+              },
+              {
+                "fieldName": "施設名",
+                "isEditable": true,
+                "label": "施設名",
+                "visible": true
+              },
+              {
+                "fieldName": "樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "住所",
+                "isEditable": true,
+                "label": "住所",
+                "visible": false
+              },
+              {
+                "fieldName": "大字",
+                "isEditable": true,
+                "label": "大字",
+                "visible": true
+              },
+              {
+                "fieldName": "地点No",
+                "isEditable": true,
+                "label": "地点No",
+                "visible": false
+              },
+              {
+                "fieldName": "地点掲載の可否",
+                "isEditable": true,
+                "label": "地点掲載の可否",
+                "visible": false
+              },
+              {
+                "fieldName": "調査者",
+                "isEditable": true,
+                "label": "調査者",
+                "visible": false
+              },
+              {
+                "fieldName": "調査本数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "調査本数",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ2024発生未確認"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriPMS",
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 12,
+                  "contentType": "image/png",
+                  "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NTI4MDNBQTZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NTI4MDNBQjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU1MjgwM0E4NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU1MjgwM0E5NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+                  "url": "https://static.arcgis.com/images/Symbols/Basic1/Blue_1_Tear_Pin1.png",
+                  "height": 15,
+                  "width": 15
+                }
+              }
+            }
+          }
+        }
+      ],
+      "layerType": "GroupLayer",
+      "visibilityMode": "independent"
+    },
+    {
+      "id": "1936c21125f-layer-23",
+      "title": "発生確認3次メッシュ",
+      "visibility": true,
+      "layers": [
+        {
+          "id": "1936c167f74-layer-15",
+          "disablePopup": true,
+          "title": "2018年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認3次メッシュ2018年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "62e4be4e472c487c969278544b81a105",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "MESH1_ID",
+                    "isEditable": true,
+                    "label": "1次メッシュ",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH2_ID",
+                    "isEditable": true,
+                    "label": "2次メッシュ",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH3_ID",
+                    "isEditable": true,
+                    "label": "3次メッシュ",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Area",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Area",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Length",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Length",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": false
+              },
+              {
+                "fieldName": "MESH1_ID",
+                "isEditable": true,
+                "label": "1次メッシュ",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH2_ID",
+                "isEditable": true,
+                "label": "2次メッシュ",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH3_ID",
+                "isEditable": true,
+                "label": "3次メッシュ",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Area",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Length",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Length",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ確認3次メッシュ2018年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    255,
+                    165,
+                    0,
+                    191
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c166b3c-layer-14",
+          "disablePopup": true,
+          "title": "2019年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認3次メッシュ2019年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "327a793c51074e00841efddfa36bb5cd",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "MESH1_ID",
+                    "isEditable": true,
+                    "label": "1次メッシュ",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH2_ID",
+                    "isEditable": true,
+                    "label": "2次メッシュ",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH3_ID",
+                    "isEditable": true,
+                    "label": "3次メッシュ",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Area",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Area",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Length",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Length",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": false
+              },
+              {
+                "fieldName": "MESH1_ID",
+                "isEditable": true,
+                "label": "1次メッシュ",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH2_ID",
+                "isEditable": true,
+                "label": "2次メッシュ",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH3_ID",
+                "isEditable": true,
+                "label": "3次メッシュ",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Area",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Length",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Length",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ確認3次メッシュ2019年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    255,
+                    165,
+                    0,
+                    191
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c1659f6-layer-13",
+          "disablePopup": true,
+          "title": "2020年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認3次メッシュ2020年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "33c69c270362476495c0c65e155910ad",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "MESH1_ID",
+                    "isEditable": true,
+                    "label": "1次メッシュ",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH2_ID",
+                    "isEditable": true,
+                    "label": "2次メッシュ",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH3_ID",
+                    "isEditable": true,
+                    "label": "3次メッシュ",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Area",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Area",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Length",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Length",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": false
+              },
+              {
+                "fieldName": "MESH1_ID",
+                "isEditable": true,
+                "label": "1次メッシュ",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH2_ID",
+                "isEditable": true,
+                "label": "2次メッシュ",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH3_ID",
+                "isEditable": true,
+                "label": "3次メッシュ",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Area",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Length",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Length",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ確認3次メッシュ2020年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    255,
+                    165,
+                    0,
+                    191
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c164a96-layer-12",
+          "disablePopup": true,
+          "title": "2021年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認3次メッシュ2021年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "04c2c9488af04bebb64a8bd3b5996054",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "MESH1_ID",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "MESH1_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH2_ID",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "MESH2_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH3_ID",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "MESH3_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "Mesh3R",
+                    "isEditable": true,
+                    "label": "Mesh3R",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "S_TKY2JGD",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "S_TKY2JGD",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Area",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Area",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Length",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Length",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": false
+              },
+              {
+                "fieldName": "MESH1_ID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MESH1_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH2_ID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MESH2_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH3_ID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MESH3_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "Mesh3R",
+                "isEditable": true,
+                "label": "Mesh3R",
+                "visible": true
+              },
+              {
+                "fieldName": "S_TKY2JGD",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "S_TKY2JGD",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Area",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Length",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Length",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ確認3次メッシュ2021年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    255,
+                    165,
+                    0,
+                    191
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c163e6f-layer-11",
+          "disablePopup": true,
+          "title": "2022年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認3次メッシュ2022年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "d402303f81554504a1fa8431b2a5b435",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "MESH1_ID",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "MESH1_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH2_ID",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "MESH2_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH3_ID",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "MESH3_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "Mesh3R",
+                    "isEditable": true,
+                    "label": "Mesh3R",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "S_TKY2JGD",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "S_TKY2JGD",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Area",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Area",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Length",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Length",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": false
+              },
+              {
+                "fieldName": "MESH1_ID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MESH1_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH2_ID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MESH2_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH3_ID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MESH3_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "Mesh3R",
+                "isEditable": true,
+                "label": "Mesh3R",
+                "visible": true
+              },
+              {
+                "fieldName": "S_TKY2JGD",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "S_TKY2JGD",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Area",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Length",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Length",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ確認3次メッシュ2022年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    255,
+                    165,
+                    0,
+                    191
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c16320a-layer-10",
+          "disablePopup": true,
+          "title": "2023年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認3次メッシュ2023年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "49f27b8b365746af8e7306881b955f4c",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "MESH1_ID",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "MESH1_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH2_ID",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "MESH2_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH3_ID",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "MESH3_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "Mesh3R",
+                    "isEditable": true,
+                    "label": "Mesh3R",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "S_TKY2JGD",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "S_TKY2JGD",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Area",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Area",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "SHAPE__Length",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": false,
+                    "label": "SHAPE__Length",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": false
+              },
+              {
+                "fieldName": "MESH1_ID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MESH1_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH2_ID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MESH2_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH3_ID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "MESH3_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "Mesh3R",
+                "isEditable": true,
+                "label": "Mesh3R",
+                "visible": true
+              },
+              {
+                "fieldName": "S_TKY2JGD",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "S_TKY2JGD",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Area",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "SHAPE__Length",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": false,
+                "label": "SHAPE__Length",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ確認3次メッシュ2023年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    255,
+                    165,
+                    0,
+                    191
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "196b3b3cab3-layer-29",
+          "disablePopup": true,
+          "title": "2024年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/2024年Mesh/FeatureServer/0",
+          "visibility": true,
+          "itemId": "ad3dfddab75f43b2a322c9f555ee5770",
+          "layerType": "ArcGISFeatureLayer",
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "KEY_CODE",
+                    "isEditable": true,
+                    "label": "KEY_CODE",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "KEY_CODE_L",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "KEY_CODE_L",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH1_ID",
+                    "isEditable": true,
+                    "label": "MESH1_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH2_ID",
+                    "isEditable": true,
+                    "label": "MESH2_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "MESH3_ID",
+                    "isEditable": true,
+                    "label": "MESH3_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "OBJ_ID",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "OBJ_ID",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "Shape_Leng",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 2
+                    },
+                    "isEditable": true,
+                    "label": "Shape_Leng",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": false
+              },
+              {
+                "fieldName": "KEY_CODE",
+                "isEditable": true,
+                "label": "KEY_CODE",
+                "visible": true
+              },
+              {
+                "fieldName": "KEY_CODE_L",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "KEY_CODE_L",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH1_ID",
+                "isEditable": true,
+                "label": "MESH1_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH2_ID",
+                "isEditable": true,
+                "label": "MESH2_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "MESH3_ID",
+                "isEditable": true,
+                "label": "MESH3_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "OBJ_ID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "OBJ_ID",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape_Leng",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "Shape_Leng",
+                "visible": true
+              }
+            ],
+            "title": "2024年Mesh"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSFS",
+                  "color": [
+                    219,
+                    46,
+                    49,
+                    255
+                  ],
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  },
+                  "style": "esriSFSSolid"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "layerType": "GroupLayer",
+      "effect": null,
+      "visibilityMode": "independent"
+    },
+    {
+      "id": "1936c1fffcc-layer-22",
+      "title": "発生確認地点",
+      "visibility": true,
+      "layers": [
+        {
+          "id": "1936c16e298-layer-21",
+          "title": "クビアカ確認情報2018年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認情報2018年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "4edcf06ff97a457786e07e735fdfd4df",
+          "layerType": "ArcGISFeatureLayer",
+          "featureEffect": null,
+          "layerDefinition": {
+            "definitionExpression": "場所区分 <> N'個人'",
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    255,
+                    130,
+                    0,
+                    217
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 11.25,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      128
+                    ],
+                    "width": 0.998,
+                    "style": "esriSLSSolid"
+                  }
+                }
+              }
+            }
+          },
+          "attributeTableInfo": {
+            "attributeTableElements": [
+              {
+                "label": "みどり自然課No",
+                "type": "field",
+                "fieldName": "みどり自然課No"
+              },
+              {
+                "label": "新規継続区分",
+                "type": "field",
+                "fieldName": "新規継続区分"
+              },
+              {
+                "label": "発生確定",
+                "type": "field",
+                "fieldName": "発生確定"
+              },
+              {
+                "label": "調査区分",
+                "type": "field",
+                "fieldName": "調査区分"
+              },
+              {
+                "label": "場所区分",
+                "type": "field",
+                "fieldName": "場所区分"
+              },
+              {
+                "label": "確認年月日",
+                "type": "field",
+                "fieldName": "発見年月日"
+              },
+              {
+                "label": "県認知年月日",
+                "type": "field",
+                "fieldName": "県認知年月日"
+              },
+              {
+                "label": "市町村",
+                "type": "field",
+                "fieldName": "市町村名"
+              },
+              {
+                "label": "大字等",
+                "type": "field",
+                "fieldName": "地名"
+              },
+              {
+                "label": "詳細住所等",
+                "type": "field",
+                "fieldName": "詳細住所等"
+              },
+              {
+                "label": "CESS確認",
+                "type": "field",
+                "fieldName": "CESS確認"
+              },
+              {
+                "label": "発生報告の有無",
+                "type": "field",
+                "fieldName": "発生報告の有無"
+              },
+              {
+                "label": "樹種",
+                "type": "field",
+                "fieldName": "樹種"
+              },
+              {
+                "label": "調査本数",
+                "type": "field",
+                "fieldName": "調査本数"
+              },
+              {
+                "label": "サクラ被害本数",
+                "type": "field",
+                "fieldName": "サクラ被害本数"
+              },
+              {
+                "label": "フラス",
+                "type": "field",
+                "fieldName": "確認_フラス"
+              },
+              {
+                "label": "成虫",
+                "type": "field",
+                "fieldName": "確認_成虫"
+              },
+              {
+                "label": "幼虫",
+                "type": "field",
+                "fieldName": "確認_幼虫"
+              },
+              {
+                "label": "確認_脱出口",
+                "type": "field",
+                "fieldName": "確認_脱出口"
+              },
+              {
+                "label": "確認_枯死",
+                "type": "field",
+                "fieldName": "確認_枯死"
+              },
+              {
+                "label": "緯度",
+                "type": "field",
+                "fieldName": "緯度"
+              },
+              {
+                "label": "経度",
+                "type": "field",
+                "fieldName": "経度"
+              }
+            ],
+            "orderByFields": []
+          },
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "発見年月日",
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村名",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "地名",
+                    "isEditable": true,
+                    "label": "大字等",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認_フラス",
+                    "isEditable": true,
+                    "label": "フラス",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認_成虫",
+                    "isEditable": true,
+                    "label": "成虫",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認_幼虫",
+                    "isEditable": true,
+                    "label": "幼虫",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "ObjectId",
+                "isEditable": false,
+                "label": "ObjectId",
+                "visible": false
+              },
+              {
+                "fieldName": "CESS確認",
+                "isEditable": true,
+                "label": "CESS確認",
+                "visible": false
+              },
+              {
+                "fieldName": "サクラ被害本数",
+                "isEditable": true,
+                "label": "サクラ被害本数",
+                "visible": false
+              },
+              {
+                "fieldName": "みどり自然課No",
+                "isEditable": true,
+                "label": "みどり自然課No",
+                "visible": false
+              },
+              {
+                "fieldName": "緯度",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "緯度",
+                "visible": false
+              },
+              {
+                "fieldName": "確認_フラス",
+                "isEditable": true,
+                "label": "フラス",
+                "visible": true
+              },
+              {
+                "fieldName": "確認_枯死",
+                "isEditable": true,
+                "label": "確認_枯死",
+                "visible": false
+              },
+              {
+                "fieldName": "確認_成虫",
+                "isEditable": true,
+                "label": "成虫",
+                "visible": true
+              },
+              {
+                "fieldName": "確認_脱出口",
+                "isEditable": true,
+                "label": "確認_脱出口",
+                "visible": false
+              },
+              {
+                "fieldName": "確認_幼虫",
+                "isEditable": true,
+                "label": "幼虫",
+                "visible": true
+              },
+              {
+                "fieldName": "経度",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "経度",
+                "visible": false
+              },
+              {
+                "fieldName": "県認知年月日",
+                "isEditable": true,
+                "label": "県認知年月日",
+                "visible": false
+              },
+              {
+                "fieldName": "市町村名",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "詳細住所等",
+                "isEditable": true,
+                "label": "詳細住所等",
+                "visible": false
+              },
+              {
+                "fieldName": "場所区分",
+                "isEditable": true,
+                "label": "場所区分",
+                "visible": false
+              },
+              {
+                "fieldName": "新規継続区分",
+                "isEditable": true,
+                "label": "新規継続区分",
+                "visible": false
+              },
+              {
+                "fieldName": "地名",
+                "isEditable": true,
+                "label": "大字等",
+                "visible": true
+              },
+              {
+                "fieldName": "調査区分",
+                "isEditable": true,
+                "label": "調査区分",
+                "visible": false
+              },
+              {
+                "fieldName": "調査本数",
+                "isEditable": true,
+                "label": "調査本数",
+                "visible": false
+              },
+              {
+                "fieldName": "発見年月日",
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "発生確定",
+                "isEditable": true,
+                "label": "発生確定",
+                "visible": false
+              },
+              {
+                "fieldName": "発生報告の有無",
+                "isEditable": true,
+                "label": "発生報告の有無",
+                "visible": false
+              }
+            ],
+            "title": "クビアカ確認情報2018年度"
+          }
+        },
+        {
+          "id": "1936c16984e-layer-16",
+          "title": "クビアカ確認情報2019年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認情報2019年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "fd9d2b1d6f804d16b0c30ae8a35415c1",
+          "layerType": "ArcGISFeatureLayer",
+          "featureEffect": null,
+          "layerDefinition": {
+            "definitionExpression": "場所区分 <> N'個人宅'",
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    255,
+                    130,
+                    0,
+                    217
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 11.25,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      128
+                    ],
+                    "width": 0.998,
+                    "style": "esriSLSSolid"
+                  }
+                }
+              }
+            }
+          },
+          "attributeTableInfo": {
+            "attributeTableElements": [
+              {
+                "label": "みどり自然課No",
+                "type": "field",
+                "fieldName": "みどり自然課No"
+              },
+              {
+                "label": "新規継続区分",
+                "type": "field",
+                "fieldName": "新規継続区分"
+              },
+              {
+                "label": "調査区分",
+                "type": "field",
+                "fieldName": "調査区分"
+              },
+              {
+                "label": "場所区分",
+                "type": "field",
+                "fieldName": "場所区分"
+              },
+              {
+                "label": "県認知年月日",
+                "type": "field",
+                "fieldName": "県認知年月日"
+              },
+              {
+                "label": "番地",
+                "type": "field",
+                "fieldName": "番地"
+              },
+              {
+                "label": "詳細住所等",
+                "type": "field",
+                "fieldName": "詳細住所等"
+              },
+              {
+                "label": "確認年月日",
+                "type": "field",
+                "fieldName": "確認年月日"
+              },
+              {
+                "label": "市町村",
+                "type": "field",
+                "fieldName": "市町村名"
+              },
+              {
+                "label": "大字等",
+                "type": "field",
+                "fieldName": "地名"
+              },
+              {
+                "label": "樹種",
+                "type": "field",
+                "fieldName": "樹種"
+              },
+              {
+                "label": "サクラ被害本数",
+                "type": "field",
+                "fieldName": "サクラ被害本数"
+              },
+              {
+                "label": "フラス",
+                "type": "field",
+                "fieldName": "確認_フラス"
+              },
+              {
+                "label": "成虫",
+                "type": "field",
+                "fieldName": "確認_成虫"
+              },
+              {
+                "label": "幼虫",
+                "type": "field",
+                "fieldName": "確認_幼虫"
+              },
+              {
+                "label": "確認_脱出口",
+                "type": "field",
+                "fieldName": "確認_脱出口"
+              },
+              {
+                "label": "確認_枯死",
+                "type": "field",
+                "fieldName": "確認_枯死"
+              },
+              {
+                "label": "緯度",
+                "type": "field",
+                "fieldName": "緯度"
+              },
+              {
+                "label": "経度",
+                "type": "field",
+                "fieldName": "経度"
+              },
+              {
+                "label": "掲載の可否",
+                "type": "field",
+                "fieldName": "掲載の可否"
+              }
+            ],
+            "orderByFields": []
+          },
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "確認年月日",
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村名",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "地名",
+                    "isEditable": true,
+                    "label": "大字等",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認_フラス",
+                    "isEditable": true,
+                    "label": "フラス",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認_成虫",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "成虫",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認_幼虫",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "幼虫",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "ObjectId",
+                "isEditable": false,
+                "label": "ObjectId",
+                "visible": false
+              },
+              {
+                "fieldName": "サクラ被害本数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "サクラ被害本数",
+                "visible": false
+              },
+              {
+                "fieldName": "みどり自然課No",
+                "isEditable": true,
+                "label": "みどり自然課No",
+                "visible": false
+              },
+              {
+                "fieldName": "緯度",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "緯度",
+                "visible": false
+              },
+              {
+                "fieldName": "確認_フラス",
+                "isEditable": true,
+                "label": "フラス",
+                "visible": true
+              },
+              {
+                "fieldName": "確認_枯死",
+                "isEditable": true,
+                "label": "確認_枯死",
+                "visible": false
+              },
+              {
+                "fieldName": "確認_成虫",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "成虫",
+                "visible": true
+              },
+              {
+                "fieldName": "確認_脱出口",
+                "isEditable": true,
+                "label": "確認_脱出口",
+                "visible": false
+              },
+              {
+                "fieldName": "確認_幼虫",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "幼虫",
+                "visible": true
+              },
+              {
+                "fieldName": "確認年月日",
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "掲載の可否",
+                "isEditable": true,
+                "label": "掲載の可否",
+                "visible": false
+              },
+              {
+                "fieldName": "経度",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "経度",
+                "visible": false
+              },
+              {
+                "fieldName": "県認知年月日",
+                "isEditable": true,
+                "label": "県認知年月日",
+                "visible": false
+              },
+              {
+                "fieldName": "市町村名",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "詳細住所等",
+                "isEditable": true,
+                "label": "詳細住所等",
+                "visible": false
+              },
+              {
+                "fieldName": "場所区分",
+                "isEditable": true,
+                "label": "場所区分",
+                "visible": false
+              },
+              {
+                "fieldName": "新規継続区分",
+                "isEditable": true,
+                "label": "新規継続区分",
+                "visible": false
+              },
+              {
+                "fieldName": "地名",
+                "isEditable": true,
+                "label": "大字等",
+                "visible": true
+              },
+              {
+                "fieldName": "調査区分",
+                "isEditable": true,
+                "label": "調査区分",
+                "visible": false
+              },
+              {
+                "fieldName": "番地",
+                "isEditable": true,
+                "label": "番地",
+                "visible": false
+              }
+            ],
+            "title": "クビアカ確認情報2019年度"
+          }
+        },
+        {
+          "id": "1936c16a5f6-layer-17",
+          "title": "クビアカ確認情報2020年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認情報2020年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "610d7323324c49568cbb83c0c41d7dab",
+          "layerType": "ArcGISFeatureLayer",
+          "featureEffect": null,
+          "attributeTableInfo": {
+            "attributeTableElements": [
+              {
+                "label": "確認年月日",
+                "type": "field",
+                "fieldName": "現地確認日"
+              },
+              {
+                "label": "市町村",
+                "type": "field",
+                "fieldName": "市町村"
+              },
+              {
+                "label": "大字等",
+                "type": "field",
+                "fieldName": "大字名"
+              },
+              {
+                "label": "樹種",
+                "type": "field",
+                "fieldName": "被害樹種"
+              },
+              {
+                "label": "フラス",
+                "type": "field",
+                "fieldName": "確認_フラス"
+              },
+              {
+                "label": "成虫",
+                "type": "field",
+                "fieldName": "確認_成虫"
+              },
+              {
+                "label": "幼虫",
+                "type": "field",
+                "fieldName": "確認_幼虫"
+              }
+            ],
+            "orderByFields": []
+          },
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "現地確認日",
+                    "format": {
+                      "dateFormat": "shortDate",
+                      "digitSeparator": false
+                    },
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "大字名",
+                    "isEditable": true,
+                    "label": "大字等",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "被害樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認_フラス",
+                    "isEditable": true,
+                    "label": "フラス",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認_成虫",
+                    "isEditable": true,
+                    "label": "成虫",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "確認_幼虫",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "幼虫",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": false
+              },
+              {
+                "fieldName": "確認_フラス",
+                "isEditable": true,
+                "label": "フラス",
+                "visible": true
+              },
+              {
+                "fieldName": "確認_成虫",
+                "isEditable": true,
+                "label": "成虫",
+                "visible": true
+              },
+              {
+                "fieldName": "確認_幼虫",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "幼虫",
+                "visible": true
+              },
+              {
+                "fieldName": "現地確認日",
+                "format": {
+                  "dateFormat": "shortDate",
+                  "digitSeparator": false
+                },
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "大字名",
+                "isEditable": true,
+                "label": "大字等",
+                "visible": true
+              },
+              {
+                "fieldName": "被害樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ確認情報2020年度"
+          },
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    255,
+                    130,
+                    0,
+                    217
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 11.25,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      128
+                    ],
+                    "width": 0.998,
+                    "style": "esriSLSSolid"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1936c16b0e1-layer-18",
+          "title": "クビアカ確認情報2021年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認情報2021年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "4d5bbdc1d75d4a4c9925f2c2caf7423b",
+          "layerType": "ArcGISFeatureLayer",
+          "featureEffect": null,
+          "layerDefinition": {
+            "definitionExpression": "地点掲載の可否 = N'〇'",
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    255,
+                    130,
+                    0,
+                    217
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 11.25,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      128
+                    ],
+                    "width": 0.998,
+                    "style": "esriSLSSolid"
+                  }
+                }
+              }
+            }
+          },
+          "attributeTableInfo": {
+            "attributeTableElements": [
+              {
+                "label": "みどり自然課No",
+                "type": "field",
+                "fieldName": "みどり自然課No"
+              },
+              {
+                "label": "市町村",
+                "type": "field",
+                "fieldName": "市町村"
+              },
+              {
+                "label": "大字等",
+                "type": "field",
+                "fieldName": "大字"
+              },
+              {
+                "label": "樹種",
+                "type": "field",
+                "fieldName": "被害樹種"
+              },
+              {
+                "label": "フラス",
+                "type": "field",
+                "fieldName": "フラス_確認"
+              },
+              {
+                "label": "成虫",
+                "type": "field",
+                "fieldName": "成虫_確認"
+              },
+              {
+                "label": "幼虫",
+                "type": "field",
+                "fieldName": "幼虫_確認"
+              },
+              {
+                "label": "確認年月日",
+                "type": "field",
+                "fieldName": "確認日"
+              },
+              {
+                "label": "LAT",
+                "type": "field",
+                "fieldName": "LAT"
+              },
+              {
+                "label": "LON",
+                "type": "field",
+                "fieldName": "LON"
+              },
+              {
+                "label": "地点掲載の可否",
+                "type": "field",
+                "fieldName": "地点掲載の可否"
+              },
+              {
+                "label": "施設名",
+                "type": "field",
+                "fieldName": "施設名"
+              }
+            ],
+            "orderByFields": []
+          },
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "確認日",
+                    "format": {
+                      "dateFormat": "shortDate",
+                      "digitSeparator": false
+                    },
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "大字",
+                    "isEditable": true,
+                    "label": "大字等",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "被害樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "フラス_確認",
+                    "isEditable": true,
+                    "label": "フラス",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "成虫_確認",
+                    "isEditable": true,
+                    "label": "成虫",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "幼虫_確認",
+                    "isEditable": true,
+                    "label": "幼虫",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": false
+              },
+              {
+                "fieldName": "LAT",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LAT",
+                "visible": false
+              },
+              {
+                "fieldName": "LON",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LON",
+                "visible": false
+              },
+              {
+                "fieldName": "フラス_確認",
+                "isEditable": true,
+                "label": "フラス",
+                "visible": true
+              },
+              {
+                "fieldName": "みどり自然課No",
+                "isEditable": true,
+                "label": "みどり自然課No",
+                "visible": false
+              },
+              {
+                "fieldName": "確認日",
+                "format": {
+                  "dateFormat": "shortDate",
+                  "digitSeparator": false
+                },
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "施設名",
+                "isEditable": true,
+                "label": "施設名",
+                "visible": false
+              },
+              {
+                "fieldName": "成虫_確認",
+                "isEditable": true,
+                "label": "成虫",
+                "visible": true
+              },
+              {
+                "fieldName": "大字",
+                "isEditable": true,
+                "label": "大字等",
+                "visible": true
+              },
+              {
+                "fieldName": "地点掲載の可否",
+                "isEditable": true,
+                "label": "地点掲載の可否",
+                "visible": false
+              },
+              {
+                "fieldName": "被害樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "幼虫_確認",
+                "isEditable": true,
+                "label": "幼虫",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ確認情報2021年度"
+          }
+        },
+        {
+          "id": "1936c16bfee-layer-19",
+          "title": "クビアカ確認情報2022年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認情報2022年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "dde7d4679fa34a63bd90cafc8042c7de",
+          "layerType": "ArcGISFeatureLayer",
+          "featureEffect": null,
+          "layerDefinition": {
+            "definitionExpression": "掲載の可否 = N'〇'",
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    255,
+                    130,
+                    0,
+                    217
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 11.25,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      128
+                    ],
+                    "width": 0.998,
+                    "style": "esriSLSSolid"
+                  }
+                }
+              }
+            }
+          },
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "県確知日",
+                    "format": {
+                      "dateFormat": "shortDate",
+                      "digitSeparator": false
+                    },
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "大字",
+                    "isEditable": true,
+                    "label": "大字",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "被害樹種",
+                    "isEditable": true,
+                    "label": "樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "フラス確認",
+                    "isEditable": true,
+                    "label": "フラス確認",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "成虫頭数",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "成虫",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "幼虫頭数",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "幼虫",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": false
+              },
+              {
+                "fieldName": "LAT",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LAT",
+                "visible": false
+              },
+              {
+                "fieldName": "LON",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LON",
+                "visible": false
+              },
+              {
+                "fieldName": "フラス確認",
+                "isEditable": true,
+                "label": "フラス確認",
+                "visible": true
+              },
+              {
+                "fieldName": "みどり自然課No",
+                "isEditable": true,
+                "label": "みどり自然課No",
+                "visible": false
+              },
+              {
+                "fieldName": "駆除成虫数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "駆除成虫数",
+                "visible": false
+              },
+              {
+                "fieldName": "駆除幼虫数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "駆除幼虫数",
+                "visible": false
+              },
+              {
+                "fieldName": "掲載の可否",
+                "isEditable": true,
+                "label": "掲載の可否",
+                "visible": false
+              },
+              {
+                "fieldName": "県確知日",
+                "format": {
+                  "dateFormat": "shortDate",
+                  "digitSeparator": false
+                },
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "施設区分",
+                "isEditable": true,
+                "label": "施設区分",
+                "visible": false
+              },
+              {
+                "fieldName": "施設名称",
+                "isEditable": true,
+                "label": "施設名称",
+                "visible": false
+              },
+              {
+                "fieldName": "住所",
+                "isEditable": true,
+                "label": "住所",
+                "visible": false
+              },
+              {
+                "fieldName": "成虫頭数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "成虫",
+                "visible": true
+              },
+              {
+                "fieldName": "対応状況",
+                "isEditable": true,
+                "label": "対応状況",
+                "visible": false
+              },
+              {
+                "fieldName": "大字",
+                "isEditable": true,
+                "label": "大字",
+                "visible": true
+              },
+              {
+                "fieldName": "嶋田位置修正",
+                "isEditable": true,
+                "label": "嶋田位置修正",
+                "visible": false
+              },
+              {
+                "fieldName": "被害樹種",
+                "isEditable": true,
+                "label": "樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "備考",
+                "isEditable": true,
+                "label": "備考",
+                "visible": false
+              },
+              {
+                "fieldName": "本数ウメ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "本数ウメ",
+                "visible": false
+              },
+              {
+                "fieldName": "本数サクラ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "本数サクラ",
+                "visible": false
+              },
+              {
+                "fieldName": "本数スモモ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "本数スモモ",
+                "visible": false
+              },
+              {
+                "fieldName": "本数その他",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "本数その他",
+                "visible": false
+              },
+              {
+                "fieldName": "本数モモ",
+                "isEditable": true,
+                "label": "本数モモ",
+                "visible": false
+              },
+              {
+                "fieldName": "幼虫頭数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "幼虫",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ確認情報2022年度"
+          }
+        },
+        {
+          "id": "1936c16d214-layer-20",
+          "title": "クビアカ確認情報2023年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ確認情報2023年度/FeatureServer/0",
+          "visibility": true,
+          "itemId": "185dfd3180d4430282e5a41dd43f266a",
+          "layerType": "ArcGISFeatureLayer",
+          "effect": null,
+          "featureEffect": null,
+          "layerDefinition": {
+            "definitionExpression": "掲載の可否 = N'〇'",
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    255,
+                    130,
+                    0,
+                    217
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 11.25,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      128
+                    ],
+                    "width": 0.998,
+                    "style": "esriSLSSolid"
+                  }
+                }
+              }
+            }
+          },
+          "attributeTableInfo": {
+            "attributeTableElements": [
+              {
+                "label": "みどり自然課No",
+                "type": "field",
+                "fieldName": "みどり自然課No"
+              },
+              {
+                "label": "市町村",
+                "type": "field",
+                "fieldName": "市町村"
+              },
+              {
+                "label": "大字等",
+                "type": "field",
+                "fieldName": "大字"
+              },
+              {
+                "label": "施設区分",
+                "type": "field",
+                "fieldName": "施設区分"
+              },
+              {
+                "label": "掲載の可否",
+                "type": "field",
+                "fieldName": "掲載の可否"
+              },
+              {
+                "label": "住所",
+                "type": "field",
+                "fieldName": "住所"
+              },
+              {
+                "label": "施設名称",
+                "type": "field",
+                "fieldName": "施設名称"
+              },
+              {
+                "label": "LAT",
+                "type": "field",
+                "fieldName": "LAT"
+              },
+              {
+                "label": "LON",
+                "type": "field",
+                "fieldName": "LON"
+              },
+              {
+                "label": "嶋田位置修正",
+                "type": "field",
+                "fieldName": "嶋田位置修正"
+              },
+              {
+                "label": "確認年月日",
+                "type": "field",
+                "fieldName": "県確知日"
+              },
+              {
+                "label": "フラス",
+                "type": "field",
+                "fieldName": "フラス確認"
+              },
+              {
+                "label": "被害樹種",
+                "type": "field",
+                "fieldName": "被害樹種"
+              },
+              {
+                "label": "本数サクラ",
+                "type": "field",
+                "fieldName": "本数サクラ"
+              },
+              {
+                "label": "本数モモ",
+                "type": "field",
+                "fieldName": "本数モモ"
+              },
+              {
+                "label": "本数スモモ",
+                "type": "field",
+                "fieldName": "本数スモモ"
+              },
+              {
+                "label": "本数ウメ",
+                "type": "field",
+                "fieldName": "本数ウメ"
+              },
+              {
+                "label": "本数その他",
+                "type": "field",
+                "fieldName": "本数その他"
+              },
+              {
+                "label": "その他種類",
+                "type": "field",
+                "fieldName": "その他種類"
+              },
+              {
+                "label": "成虫",
+                "type": "field",
+                "fieldName": "成虫頭数"
+              },
+              {
+                "label": "幼虫",
+                "type": "field",
+                "fieldName": "幼虫頭数"
+              },
+              {
+                "label": "駆除成虫数",
+                "type": "field",
+                "fieldName": "駆除成虫数"
+              },
+              {
+                "label": "駆除幼虫数",
+                "type": "field",
+                "fieldName": "駆除幼虫数"
+              },
+              {
+                "label": "対応状況",
+                "type": "field",
+                "fieldName": "対応状況"
+              },
+              {
+                "label": "備考",
+                "type": "field",
+                "fieldName": "備考"
+              }
+            ],
+            "orderByFields": []
+          },
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "県確知日",
+                    "format": {
+                      "dateFormat": "shortDate",
+                      "digitSeparator": false
+                    },
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "大字",
+                    "isEditable": true,
+                    "label": "大字等",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "被害樹種",
+                    "isEditable": true,
+                    "label": "被害樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "フラス確認",
+                    "isEditable": true,
+                    "label": "フラス",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "成虫頭数",
+                    "isEditable": true,
+                    "label": "成虫",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "幼虫頭数",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "幼虫",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "ObjectId",
+                "isEditable": false,
+                "label": "ObjectId",
+                "visible": false
+              },
+              {
+                "fieldName": "LAT",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LAT",
+                "visible": false
+              },
+              {
+                "fieldName": "LON",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LON",
+                "visible": false
+              },
+              {
+                "fieldName": "その他種類",
+                "isEditable": true,
+                "label": "その他種類",
+                "visible": false
+              },
+              {
+                "fieldName": "フラス確認",
+                "isEditable": true,
+                "label": "フラス",
+                "visible": true
+              },
+              {
+                "fieldName": "みどり自然課No",
+                "isEditable": true,
+                "label": "みどり自然課No",
+                "visible": false
+              },
+              {
+                "fieldName": "駆除成虫数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "駆除成虫数",
+                "visible": false
+              },
+              {
+                "fieldName": "駆除幼虫数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "駆除幼虫数",
+                "visible": false
+              },
+              {
+                "fieldName": "掲載の可否",
+                "isEditable": true,
+                "label": "掲載の可否",
+                "visible": false
+              },
+              {
+                "fieldName": "県確知日",
+                "format": {
+                  "dateFormat": "shortDate",
+                  "digitSeparator": false
+                },
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "施設区分",
+                "isEditable": true,
+                "label": "施設区分",
+                "visible": false
+              },
+              {
+                "fieldName": "施設名称",
+                "isEditable": true,
+                "label": "施設名称",
+                "visible": false
+              },
+              {
+                "fieldName": "住所",
+                "isEditable": true,
+                "label": "住所",
+                "visible": false
+              },
+              {
+                "fieldName": "成虫頭数",
+                "isEditable": true,
+                "label": "成虫",
+                "visible": true
+              },
+              {
+                "fieldName": "対応状況",
+                "isEditable": true,
+                "label": "対応状況",
+                "visible": false
+              },
+              {
+                "fieldName": "大字",
+                "isEditable": true,
+                "label": "大字等",
+                "visible": true
+              },
+              {
+                "fieldName": "嶋田位置修正",
+                "isEditable": true,
+                "label": "嶋田位置修正",
+                "visible": false
+              },
+              {
+                "fieldName": "被害樹種",
+                "isEditable": true,
+                "label": "被害樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "備考",
+                "isEditable": true,
+                "label": "備考",
+                "visible": false
+              },
+              {
+                "fieldName": "本数ウメ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "本数ウメ",
+                "visible": false
+              },
+              {
+                "fieldName": "本数サクラ",
+                "isEditable": true,
+                "label": "本数サクラ",
+                "visible": false
+              },
+              {
+                "fieldName": "本数スモモ",
+                "isEditable": true,
+                "label": "本数スモモ",
+                "visible": false
+              },
+              {
+                "fieldName": "本数その他",
+                "isEditable": true,
+                "label": "本数その他",
+                "visible": false
+              },
+              {
+                "fieldName": "本数モモ",
+                "isEditable": true,
+                "label": "本数モモ",
+                "visible": false
+              },
+              {
+                "fieldName": "幼虫頭数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "幼虫",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ確認情報2023年度"
+          }
+        },
+        {
+          "id": "196b39b685c-layer-25",
+          "title": "クビアカ確認情報2024年度",
+          "url": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカ2024発生確認/FeatureServer/0",
+          "visibility": true,
+          "itemId": "5df2985a338448cbbdba7443cd12729b",
+          "layerType": "ArcGISFeatureLayer",
+          "featureEffect": null,
+          "layerDefinition": {
+            "definitionExpression": "掲載の可否 = N'〇'",
+            "drawingInfo": {
+              "renderer": {
+                "type": "simple",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    219,
+                    46,
+                    49,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 11.25,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      128
+                    ],
+                    "width": 0.998,
+                    "style": "esriSLSSolid"
+                  }
+                }
+              }
+            }
+          },
+          "popupInfo": {
+            "popupElements": [
+              {
+                "type": "fields",
+                "description": "",
+                "fieldInfos": [
+                  {
+                    "fieldName": "県確知日",
+                    "format": {
+                      "dateFormat": "shortDate",
+                      "digitSeparator": false
+                    },
+                    "isEditable": true,
+                    "label": "確認年月日",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "市町村",
+                    "isEditable": true,
+                    "label": "市町村",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "大字",
+                    "isEditable": true,
+                    "label": "大字等",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "被害樹種",
+                    "isEditable": true,
+                    "label": "被害樹種",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "フラス確認",
+                    "isEditable": true,
+                    "label": "フラス",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "成虫頭数",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "成虫",
+                    "visible": true
+                  },
+                  {
+                    "fieldName": "幼虫頭数",
+                    "format": {
+                      "digitSeparator": true,
+                      "places": 0
+                    },
+                    "isEditable": true,
+                    "label": "幼虫",
+                    "visible": true
+                  }
+                ],
+                "title": ""
+              }
+            ],
+            "fieldInfos": [
+              {
+                "fieldName": "FID",
+                "isEditable": false,
+                "label": "FID",
+                "visible": false
+              },
+              {
+                "fieldName": "LAT",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LAT",
+                "visible": false
+              },
+              {
+                "fieldName": "LON",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "isEditable": true,
+                "label": "LON",
+                "visible": false
+              },
+              {
+                "fieldName": "その他種類",
+                "isEditable": true,
+                "label": "その他種類",
+                "visible": false
+              },
+              {
+                "fieldName": "フラス確認",
+                "isEditable": true,
+                "label": "フラス",
+                "visible": true
+              },
+              {
+                "fieldName": "みどり自然課No",
+                "isEditable": true,
+                "label": "みどり自然課No",
+                "visible": false
+              },
+              {
+                "fieldName": "駆除成虫数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "駆除成虫数",
+                "visible": false
+              },
+              {
+                "fieldName": "駆除幼虫数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "駆除幼虫数",
+                "visible": false
+              },
+              {
+                "fieldName": "掲載の可否",
+                "isEditable": true,
+                "label": "掲載の可否",
+                "visible": false
+              },
+              {
+                "fieldName": "県確知日",
+                "format": {
+                  "dateFormat": "shortDate",
+                  "digitSeparator": false
+                },
+                "isEditable": true,
+                "label": "確認年月日",
+                "visible": true
+              },
+              {
+                "fieldName": "市町村",
+                "isEditable": true,
+                "label": "市町村",
+                "visible": true
+              },
+              {
+                "fieldName": "施設区分",
+                "isEditable": true,
+                "label": "施設区分",
+                "visible": false
+              },
+              {
+                "fieldName": "施設名称",
+                "isEditable": true,
+                "label": "施設名称",
+                "visible": false
+              },
+              {
+                "fieldName": "住所",
+                "isEditable": true,
+                "label": "住所",
+                "visible": false
+              },
+              {
+                "fieldName": "成虫頭数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "成虫",
+                "visible": true
+              },
+              {
+                "fieldName": "対応状況",
+                "isEditable": true,
+                "label": "対応状況",
+                "visible": false
+              },
+              {
+                "fieldName": "大字",
+                "isEditable": true,
+                "label": "大字等",
+                "visible": true
+              },
+              {
+                "fieldName": "被害樹種",
+                "isEditable": true,
+                "label": "被害樹種",
+                "visible": true
+              },
+              {
+                "fieldName": "備考",
+                "isEditable": true,
+                "label": "備考",
+                "visible": false
+              },
+              {
+                "fieldName": "本数ウメ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "本数ウメ",
+                "visible": false
+              },
+              {
+                "fieldName": "本数サクラ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "本数サクラ",
+                "visible": false
+              },
+              {
+                "fieldName": "本数スモモ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "本数スモモ",
+                "visible": false
+              },
+              {
+                "fieldName": "本数その他",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "本数その他",
+                "visible": false
+              },
+              {
+                "fieldName": "本数モモ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "本数モモ",
+                "visible": false
+              },
+              {
+                "fieldName": "幼虫頭数",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "幼虫",
+                "visible": true
+              }
+            ],
+            "title": "クビアカ2024発生確認"
+          }
+        }
+      ],
+      "layerType": "GroupLayer",
+      "minScale": 192921.048235,
+      "visibilityMode": "independent"
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "World_Hillshade_426",
+        "showLegend": true,
+        "opacity": 1,
+        "title": "World Hillshade",
+        "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer",
+        "visibility": true,
+        "itemId": "1b243539f4514b6ba35e7d995890db1d",
+        "layerType": "ArcGISTiledMapServiceLayer"
+      },
+      {
+        "id": "VectorTile_9461",
+        "opacity": 1,
+        "title": "地形図 (Japanese) ",
+        "visibility": true,
+        "itemId": "97b0ea1cc8ca41028420dd4067873c53",
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/97b0ea1cc8ca41028420dd4067873c53/resources/styles/root.json"
+      }
+    ],
+    "title": "地形図"
+  },
+  "authoringApp": "ArcGISMapViewer",
+  "authoringAppVersion": "2025.1",
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "xmin": 15494569.707097627,
+        "ymin": 4277482.566253108,
+        "xmax": 15540737.672181811,
+        "ymax": 4333128.722844641
+      }
+    }
+  },
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "timeZone": "system",
+  "version": "2.33"
+}

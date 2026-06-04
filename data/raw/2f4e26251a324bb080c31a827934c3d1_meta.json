@@ -1,0 +1,68 @@
+{
+  "id": "2f4e26251a324bb080c31a827934c3d1",
+  "owner": "g09a30cr001",
+  "orgId": "n65w8AXGaYPTqFYI",
+  "created": 1746769968000,
+  "modified": 1746774301000,
+  "guid": null,
+  "name": null,
+  "title": "クビアカツヤカミキリ発生確認マップVer2025_05",
+  "type": "Web Map",
+  "typeKeywords": [
+    "ArcGIS API for JavaScript",
+    "ArcGIS Online",
+    "Explorer Web Map",
+    "Map",
+    "Online Map",
+    "Web Map"
+  ],
+  "description": "",
+  "tags": [
+    "生物多様性センター"
+  ],
+  "snippet": "",
+  "thumbnail": "thumbnail/ago_downloaded.png",
+  "documentation": null,
+  "extent": [
+    [
+      139.19008788741135,
+      35.831659011143785
+    ],
+    [
+      139.60482177412956,
+      36.23589374535417
+    ]
+  ],
+  "categories": [
+    "/Categories/GIS"
+  ],
+  "spatialReference": "",
+  "accessInformation": "",
+  "classification": null,
+  "licenseInfo": "",
+  "culture": "ja-jp",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 84775,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 42276,
+  "scoreCompleteness": 33,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "lastViewed": 1780578000000
+}
