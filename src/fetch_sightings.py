@@ -30,9 +30,19 @@ for year, url in LAYERS.items():
     data = r.json()
 
     for feature in data.get("features", []):
-        feature.setdefault("properties", {})
-        feature["properties"]["year"] = year
-        feature["properties"]["source_layer"] = url
+        props = feature.setdefault("properties", {})
+
+        props["year"] = year
+        props["source_layer"] = url
+
+        # 年度ごとに違うフィールド名を共通化
+        props["city_norm"] = props.get("市町村名") or props.get("市町村")
+        props["tree_norm"] = props.get("樹種") or props.get("被害樹種")
+        props["adult_count_norm"] = props.get("確認_成虫") or props.get("成虫頭数")
+        props["larva_count_norm"] = props.get("確認_幼虫") or props.get("幼虫頭数")
+        props["frass_norm"] = props.get("確認_フラス") or props.get("フラス確認")
+        props["date_found_norm"] = props.get("発見年月日") or props.get("県確知日")
+
         features.append(feature)
 
 out = {
