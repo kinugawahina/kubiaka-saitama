@@ -13,12 +13,12 @@ print("\n年度別:")
 for year, count in sorted(by_year.items()):
     print(year, count)
 
-by_city = Counter(f["properties"].get("市町村名") for f in features)
+by_city = Counter(f["properties"].get("city_norm") for f in features)
 print("\n市町村別 top 20:")
 for city, count in by_city.most_common(20):
     print(city, count)
 
-by_tree = Counter(f["properties"].get("樹種") for f in features)
+by_tree = Counter(f["properties"].get("tree_norm") for f in features)
 print("\n樹種 top 20:")
 for tree, count in by_tree.most_common(20):
     print(tree, count)
@@ -30,7 +30,20 @@ recent = [
 
 print("\n2024年度地点数:", len(recent))
 
-by_city_2024 = Counter(f["properties"].get("市町村名") for f in recent)
+by_city_2024 = Counter(f["properties"].get("city_norm") for f in recent)
 print("\n2024年度 市町村別 top 20:")
 for city, count in by_city_2024.most_common(20):
     print(city, count)
+
+by_tree_2024 = Counter(f["properties"].get("tree_norm") for f in recent)
+print("\n2024年度 樹種 top 20:")
+for tree, count in by_tree_2024.most_common(20):
+    print(tree, count)
+
+by_adult_2024 = sum(
+    int(f["properties"].get("adult_count_norm") or 0)
+    for f in recent
+)
+
+print("\n2024年度 成虫確認頭数合計:")
+print(by_adult_2024)
