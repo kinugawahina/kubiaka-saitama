@@ -1,18 +1,7 @@
-# Python
+.venv/
 __pycache__/
 *.pyc
-
-# Virtual environment
-.venv/
-
-# macOS
 .DS_Store
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Raw downloaded data
 data/raw/
-
-# Secrets
 .env
