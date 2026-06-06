@@ -1,0 +1,2509 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f1e5763ce15790f647331b948a22257d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f1e5763ce15790f647331b948a22257d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f1e5763ce15790f647331b948a22257d = L.map(
+                "map_f1e5763ce15790f647331b948a22257d",
+                {
+                    center: [36.05, 139.45],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bdbf9f129a3c0aba6fb42a15a3b1342e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_bdbf9f129a3c0aba6fb42a15a3b1342e.addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+            var circle_be86f82b79c285711ee6777dba08ceaf = L.circle(
+                [36.1549443807842, 139.345960429974],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_af206ad605f1fbf5dfa697ca134980dc = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_3a31dac724a5a65948325fb47ce79a1b = $(`<div id="html_3a31dac724a5a65948325fb47ce79a1b" style="width: 100.0%; height: 100.0%;">     <b>#1 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 2760<br>     施設区分: 公園<br>     施設: さくら運動公園<br>     住所: 熊谷市小島１５７－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_af206ad605f1fbf5dfa697ca134980dc.setContent(html_3a31dac724a5a65948325fb47ce79a1b);
+            
+        
+
+        circle_be86f82b79c285711ee6777dba08ceaf.bindPopup(popup_af206ad605f1fbf5dfa697ca134980dc)
+        ;
+
+        
+    
+    
+            var circle_marker_d094543f265e35dcb9d6ee36b8423749 = L.circleMarker(
+                [36.1549443807842, 139.345960429974],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_0b4114135742f98755daf2d5ebbab53f = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_10fa324e89ce804b8766e60bff83b9c6 = $(`<div id="html_10fa324e89ce804b8766e60bff83b9c6" style="width: 100.0%; height: 100.0%;">     <b>#1 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 2760<br>     施設区分: 公園<br>     施設: さくら運動公園<br>     住所: 熊谷市小島１５７－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_0b4114135742f98755daf2d5ebbab53f.setContent(html_10fa324e89ce804b8766e60bff83b9c6);
+            
+        
+
+        circle_marker_d094543f265e35dcb9d6ee36b8423749.bindPopup(popup_0b4114135742f98755daf2d5ebbab53f)
+        ;
+
+        
+    
+    
+            circle_marker_d094543f265e35dcb9d6ee36b8423749.bindTooltip(
+                `<div>
+                     #1 熊谷市 / 成虫 2760
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_75f84c64da7ce73b396c509108082dd7 = L.circle(
+                [36.2290569515365, 139.38096364285],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_34371c6382e2736e3fbd1754e1ff630b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_34a64e21018470a3478e065d53a42346 = $(`<div id="html_34a64e21018470a3478e065d53a42346" style="width: 100.0%; height: 100.0%;">     <b>#2 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 1797<br>     施設区分: その他<br>     施設: 妻沼緑道<br>     住所: 熊谷市妻沼９００付近<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_34371c6382e2736e3fbd1754e1ff630b.setContent(html_34a64e21018470a3478e065d53a42346);
+            
+        
+
+        circle_75f84c64da7ce73b396c509108082dd7.bindPopup(popup_34371c6382e2736e3fbd1754e1ff630b)
+        ;
+
+        
+    
+    
+            var circle_marker_4fe622d4899a6e0e57edf0d2831486b5 = L.circleMarker(
+                [36.2290569515365, 139.38096364285],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_89a3ef7376f1bb6f6d470d3044f2fb4a = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_84f156e652d95a9b1241946b56821b35 = $(`<div id="html_84f156e652d95a9b1241946b56821b35" style="width: 100.0%; height: 100.0%;">     <b>#2 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 1797<br>     施設区分: その他<br>     施設: 妻沼緑道<br>     住所: 熊谷市妻沼９００付近<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_89a3ef7376f1bb6f6d470d3044f2fb4a.setContent(html_84f156e652d95a9b1241946b56821b35);
+            
+        
+
+        circle_marker_4fe622d4899a6e0e57edf0d2831486b5.bindPopup(popup_89a3ef7376f1bb6f6d470d3044f2fb4a)
+        ;
+
+        
+    
+    
+            circle_marker_4fe622d4899a6e0e57edf0d2831486b5.bindTooltip(
+                `<div>
+                     #2 熊谷市 / 成虫 1797
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f8381194acdd9d3cf0d9d433b0899341 = L.circle(
+                [36.1959061403633, 139.379462255622],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_c508699851f280e60e5b6ccfa1c455aa = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_8e5e35fdd8757d8f379ef2096b780548 = $(`<div id="html_8e5e35fdd8757d8f379ef2096b780548" style="width: 100.0%; height: 100.0%;">     <b>#3 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 1280<br>     施設区分: その他<br>     施設: 新奈良川遊水池<br>     住所: 熊谷市下奈良１３７７付近<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_c508699851f280e60e5b6ccfa1c455aa.setContent(html_8e5e35fdd8757d8f379ef2096b780548);
+            
+        
+
+        circle_f8381194acdd9d3cf0d9d433b0899341.bindPopup(popup_c508699851f280e60e5b6ccfa1c455aa)
+        ;
+
+        
+    
+    
+            var circle_marker_58bb17195608ed57d4818cae362b9499 = L.circleMarker(
+                [36.1959061403633, 139.379462255622],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.925695879998878, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_1380ef2483d0bdf2cb37782e9eb2abf4 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c94e811c8044e76b1a55f7ad24864bb4 = $(`<div id="html_c94e811c8044e76b1a55f7ad24864bb4" style="width: 100.0%; height: 100.0%;">     <b>#3 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 1280<br>     施設区分: その他<br>     施設: 新奈良川遊水池<br>     住所: 熊谷市下奈良１３７７付近<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_1380ef2483d0bdf2cb37782e9eb2abf4.setContent(html_c94e811c8044e76b1a55f7ad24864bb4);
+            
+        
+
+        circle_marker_58bb17195608ed57d4818cae362b9499.bindPopup(popup_1380ef2483d0bdf2cb37782e9eb2abf4)
+        ;
+
+        
+    
+    
+            circle_marker_58bb17195608ed57d4818cae362b9499.bindTooltip(
+                `<div>
+                     #3 熊谷市 / 成虫 1280
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_9140f7954fcd21d3a2017641e7c5735e = L.circle(
+                [36.1663831178302, 139.407251804296],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_680f28c9b43f4f1fa5eaa13789a8aa23 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_a6287651883d9df70f5248cae37fc9c9 = $(`<div id="html_a6287651883d9df70f5248cae37fc9c9" style="width: 100.0%; height: 100.0%;">     <b>#4 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 1258<br>     施設区分: 公園<br>     施設: 熊谷スポーツ文化公園<br>     住所: 熊谷市上川上３００<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_680f28c9b43f4f1fa5eaa13789a8aa23.setContent(html_a6287651883d9df70f5248cae37fc9c9);
+            
+        
+
+        circle_9140f7954fcd21d3a2017641e7c5735e.bindPopup(popup_680f28c9b43f4f1fa5eaa13789a8aa23)
+        ;
+
+        
+    
+    
+            var circle_marker_c846f85ee07bbc7d6ec2083ac737f1f3 = L.circleMarker(
+                [36.1663831178302, 139.407251804296],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.8227652339788, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_f15881bfdb1bd795f690187a78b6e3ad = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_1b6fe554d53390451c43b08c4018a7ad = $(`<div id="html_1b6fe554d53390451c43b08c4018a7ad" style="width: 100.0%; height: 100.0%;">     <b>#4 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 1258<br>     施設区分: 公園<br>     施設: 熊谷スポーツ文化公園<br>     住所: 熊谷市上川上３００<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_f15881bfdb1bd795f690187a78b6e3ad.setContent(html_1b6fe554d53390451c43b08c4018a7ad);
+            
+        
+
+        circle_marker_c846f85ee07bbc7d6ec2083ac737f1f3.bindPopup(popup_f15881bfdb1bd795f690187a78b6e3ad)
+        ;
+
+        
+    
+    
+            circle_marker_c846f85ee07bbc7d6ec2083ac737f1f3.bindTooltip(
+                `<div>
+                     #4 熊谷市 / 成虫 1258
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_03e0f6672659c4bc865698b8fa4c0abe = L.circle(
+                [36.1367496435688, 139.38113290012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_6195ef7ac3a9fad78e53a6fdf0c9a207 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0fc683de0d82cdf857a44ccfb411d441 = $(`<div id="html_0fc683de0d82cdf857a44ccfb411d441" style="width: 100.0%; height: 100.0%;">     <b>#5 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 1145<br>     施設区分: その他<br>     施設: 熊谷荒川緑地<br>     住所: 熊谷市熊谷<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_6195ef7ac3a9fad78e53a6fdf0c9a207.setContent(html_0fc683de0d82cdf857a44ccfb411d441);
+            
+        
+
+        circle_03e0f6672659c4bc865698b8fa4c0abe.bindPopup(popup_6195ef7ac3a9fad78e53a6fdf0c9a207)
+        ;
+
+        
+    
+    
+            var circle_marker_91a6cd38c7dd3b9f5e6c5733b7d571dc = L.circleMarker(
+                [36.1367496435688, 139.38113290012],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.279282877125754, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_2169e71009db62c173418e08ea092beb = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0df3caaa4225a64f62c6edb9025ddcde = $(`<div id="html_0df3caaa4225a64f62c6edb9025ddcde" style="width: 100.0%; height: 100.0%;">     <b>#5 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 1145<br>     施設区分: その他<br>     施設: 熊谷荒川緑地<br>     住所: 熊谷市熊谷<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_2169e71009db62c173418e08ea092beb.setContent(html_0df3caaa4225a64f62c6edb9025ddcde);
+            
+        
+
+        circle_marker_91a6cd38c7dd3b9f5e6c5733b7d571dc.bindPopup(popup_2169e71009db62c173418e08ea092beb)
+        ;
+
+        
+    
+    
+            circle_marker_91a6cd38c7dd3b9f5e6c5733b7d571dc.bindTooltip(
+                `<div>
+                     #5 熊谷市 / 成虫 1145
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_e3c7717347059fb01dcbdb0a580b9fcb = L.circle(
+                [36.1460683328015, 139.373258083192],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_7e931e1600a05190405540afa5ef6122 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_6a93feb118e377e720ef805abfbe617a = $(`<div id="html_6a93feb118e377e720ef805abfbe617a" style="width: 100.0%; height: 100.0%;">     <b>#6 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 1022<br>     施設区分: その他<br>     施設: 石原かめの道<br>     住所: 熊谷市石原<br>     樹種: サクラ<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_7e931e1600a05190405540afa5ef6122.setContent(html_6a93feb118e377e720ef805abfbe617a);
+            
+        
+
+        circle_e3c7717347059fb01dcbdb0a580b9fcb.bindPopup(popup_7e931e1600a05190405540afa5ef6122)
+        ;
+
+        
+    
+    
+            var circle_marker_2b15e7b37083388845b51e489e305a8c = L.circleMarker(
+                [36.1460683328015, 139.373258083192],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.656244908763854, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_3fcd19802a718420908716b223d997f9 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_86a5e70fd70a8e5797bfce39e4976a8d = $(`<div id="html_86a5e70fd70a8e5797bfce39e4976a8d" style="width: 100.0%; height: 100.0%;">     <b>#6 熊谷市</b><br>     予測半径: 2000m<br>     成虫頭数: 1022<br>     施設区分: その他<br>     施設: 石原かめの道<br>     住所: 熊谷市石原<br>     樹種: サクラ<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_3fcd19802a718420908716b223d997f9.setContent(html_86a5e70fd70a8e5797bfce39e4976a8d);
+            
+        
+
+        circle_marker_2b15e7b37083388845b51e489e305a8c.bindPopup(popup_3fcd19802a718420908716b223d997f9)
+        ;
+
+        
+    
+    
+            circle_marker_2b15e7b37083388845b51e489e305a8c.bindTooltip(
+                `<div>
+                     #6 熊谷市 / 成虫 1022
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a1d65b55ed59097b7cda6e16eb4481a2 = L.circle(
+                [36.1945879553484, 139.338268313541],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_2e24ab1e7f584008419b4f62c00237f1 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_b5c1705ec027ff5acba72254de579bf8 = $(`<div id="html_b5c1705ec027ff5acba72254de579bf8" style="width: 100.0%; height: 100.0%;">     <b>#7 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 993<br>     施設区分: 公園<br>     施設: 別府沼公園<br>     住所: 熊谷市西別府１４５６<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_2e24ab1e7f584008419b4f62c00237f1.setContent(html_b5c1705ec027ff5acba72254de579bf8);
+            
+        
+
+        circle_a1d65b55ed59097b7cda6e16eb4481a2.bindPopup(popup_2e24ab1e7f584008419b4f62c00237f1)
+        ;
+
+        
+    
+    
+            var circle_marker_b672a7ae79fff845b0dd9284c7a06dd6 = L.circleMarker(
+                [36.1945879553484, 139.338268313541],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.503967504392486, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_6b3d40756a82c3e95d1499450a8d8f6c = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_17d3da1453353057c7c234980b66dd57 = $(`<div id="html_17d3da1453353057c7c234980b66dd57" style="width: 100.0%; height: 100.0%;">     <b>#7 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 993<br>     施設区分: 公園<br>     施設: 別府沼公園<br>     住所: 熊谷市西別府１４５６<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_6b3d40756a82c3e95d1499450a8d8f6c.setContent(html_17d3da1453353057c7c234980b66dd57);
+            
+        
+
+        circle_marker_b672a7ae79fff845b0dd9284c7a06dd6.bindPopup(popup_6b3d40756a82c3e95d1499450a8d8f6c)
+        ;
+
+        
+    
+    
+            circle_marker_b672a7ae79fff845b0dd9284c7a06dd6.bindTooltip(
+                `<div>
+                     #7 熊谷市 / 成虫 993
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_167a4987f14662a584cf24f7ee440127 = L.circle(
+                [36.2188957727802, 139.373491448737],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_78dd11484af05769de80fd1e20d25e0c = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_aab2fb18f92de0e134e4f7bdfe3154ec = $(`<div id="html_aab2fb18f92de0e134e4f7bdfe3154ec" style="width: 100.0%; height: 100.0%;">     <b>#8 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 880<br>     施設区分: その他<br>     施設: 備前堀<br>     住所: 熊谷市弥藤吾<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_78dd11484af05769de80fd1e20d25e0c.setContent(html_aab2fb18f92de0e134e4f7bdfe3154ec);
+            
+        
+
+        circle_167a4987f14662a584cf24f7ee440127.bindPopup(popup_78dd11484af05769de80fd1e20d25e0c)
+        ;
+
+        
+    
+    
+            var circle_marker_42307e811b5ab00bfddb02f96c73778f = L.circleMarker(
+                [36.2188957727802, 139.373491448737],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.888264649460885, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_d02d9781cb1c0b5c414b534913094bd7 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e485fb2d03b3983249f90543d3774722 = $(`<div id="html_e485fb2d03b3983249f90543d3774722" style="width: 100.0%; height: 100.0%;">     <b>#8 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 880<br>     施設区分: その他<br>     施設: 備前堀<br>     住所: 熊谷市弥藤吾<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_d02d9781cb1c0b5c414b534913094bd7.setContent(html_e485fb2d03b3983249f90543d3774722);
+            
+        
+
+        circle_marker_42307e811b5ab00bfddb02f96c73778f.bindPopup(popup_d02d9781cb1c0b5c414b534913094bd7)
+        ;
+
+        
+    
+    
+            circle_marker_42307e811b5ab00bfddb02f96c73778f.bindTooltip(
+                `<div>
+                     #8 熊谷市 / 成虫 880
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_e0fc9310f148dccdcbeca7eba427db43 = L.circle(
+                [36.152690595101, 139.390110198629],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_e2c28025862113df2eb9edb15bde0f57 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_af7cc12a3c0fc470ed6feab1ce99da8d = $(`<div id="html_af7cc12a3c0fc470ed6feab1ce99da8d" style="width: 100.0%; height: 100.0%;">     <b>#9 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 562<br>     施設区分: 学校等<br>     施設: 熊谷西小学校<br>     住所: 熊谷市中央１－１－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_e2c28025862113df2eb9edb15bde0f57.setContent(html_af7cc12a3c0fc470ed6feab1ce99da8d);
+            
+        
+
+        circle_e0fc9310f148dccdcbeca7eba427db43.bindPopup(popup_e2c28025862113df2eb9edb15bde0f57)
+        ;
+
+        
+    
+    
+            var circle_marker_c7ae249f29fbd2540589623c5fd3cd76 = L.circleMarker(
+                [36.152690595101, 139.390110198629],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.9021797274198, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_6e50bec7e15ffa7466b0bcffbae17428 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f67e9fb72500bf417e37c17c9a7f6aea = $(`<div id="html_f67e9fb72500bf417e37c17c9a7f6aea" style="width: 100.0%; height: 100.0%;">     <b>#9 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 562<br>     施設区分: 学校等<br>     施設: 熊谷西小学校<br>     住所: 熊谷市中央１－１－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_6e50bec7e15ffa7466b0bcffbae17428.setContent(html_f67e9fb72500bf417e37c17c9a7f6aea);
+            
+        
+
+        circle_marker_c7ae249f29fbd2540589623c5fd3cd76.bindPopup(popup_6e50bec7e15ffa7466b0bcffbae17428)
+        ;
+
+        
+    
+    
+            circle_marker_c7ae249f29fbd2540589623c5fd3cd76.bindTooltip(
+                `<div>
+                     #9 熊谷市 / 成虫 562
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_7fb054426da39212d0dfcda5a4c9e0fd = L.circle(
+                [36.1361427897741, 139.386558647277],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_f708ce0ad48663d1f2a2b7dbea3c5540 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f3c5ded3ec787ac57c7a30933eec96aa = $(`<div id="html_f3c5ded3ec787ac57c7a30933eec96aa" style="width: 100.0%; height: 100.0%;">     <b>#10 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 551<br>     施設区分: 公園<br>     施設: 荒川桜堤<br>     住所: 熊谷市河原町２丁目付近<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_f708ce0ad48663d1f2a2b7dbea3c5540.setContent(html_f3c5ded3ec787ac57c7a30933eec96aa);
+            
+        
+
+        circle_7fb054426da39212d0dfcda5a4c9e0fd.bindPopup(popup_f708ce0ad48663d1f2a2b7dbea3c5540)
+        ;
+
+        
+    
+    
+            var circle_marker_42cc4782084ab77f2b52ef212a15ecba = L.circleMarker(
+                [36.1361427897741, 139.386558647277],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.824463062870336, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_23c85a9640f5b4a9b9abc7c85e17ed9c = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0e7ad0c8c5738b1e238f3f0be79b84c3 = $(`<div id="html_0e7ad0c8c5738b1e238f3f0be79b84c3" style="width: 100.0%; height: 100.0%;">     <b>#10 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 551<br>     施設区分: 公園<br>     施設: 荒川桜堤<br>     住所: 熊谷市河原町２丁目付近<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_23c85a9640f5b4a9b9abc7c85e17ed9c.setContent(html_0e7ad0c8c5738b1e238f3f0be79b84c3);
+            
+        
+
+        circle_marker_42cc4782084ab77f2b52ef212a15ecba.bindPopup(popup_23c85a9640f5b4a9b9abc7c85e17ed9c)
+        ;
+
+        
+    
+    
+            circle_marker_42cc4782084ab77f2b52ef212a15ecba.bindTooltip(
+                `<div>
+                     #10 熊谷市 / 成虫 551
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_12ee22a4f43bdd84ffa5bae3c74b77ed = L.circle(
+                [36.2247333762071, 139.342512416208],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_6b533368ebb47cdb70b66e8756b05ece = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_fba7c8864b32f8e63a580136b64f4da4 = $(`<div id="html_fba7c8864b32f8e63a580136b64f4da4" style="width: 100.0%; height: 100.0%;">     <b>#11 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 519<br>     施設区分: その他<br>     施設: 永井太田<br>     住所: 熊谷市永井太田<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_6b533368ebb47cdb70b66e8756b05ece.setContent(html_fba7c8864b32f8e63a580136b64f4da4);
+            
+        
+
+        circle_12ee22a4f43bdd84ffa5bae3c74b77ed.bindPopup(popup_6b533368ebb47cdb70b66e8756b05ece)
+        ;
+
+        
+    
+    
+            var circle_marker_2a936179960a67983f3301a75f34756a = L.circleMarker(
+                [36.2247333762071, 139.342512416208],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.593857166596344, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_0865781f79cb8ed64e1aa8993a037cc3 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0075fe54adf883d9c9266f1f9d8e4db7 = $(`<div id="html_0075fe54adf883d9c9266f1f9d8e4db7" style="width: 100.0%; height: 100.0%;">     <b>#11 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 519<br>     施設区分: その他<br>     施設: 永井太田<br>     住所: 熊谷市永井太田<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_0865781f79cb8ed64e1aa8993a037cc3.setContent(html_0075fe54adf883d9c9266f1f9d8e4db7);
+            
+        
+
+        circle_marker_2a936179960a67983f3301a75f34756a.bindPopup(popup_0865781f79cb8ed64e1aa8993a037cc3)
+        ;
+
+        
+    
+    
+            circle_marker_2a936179960a67983f3301a75f34756a.bindTooltip(
+                `<div>
+                     #11 熊谷市 / 成虫 519
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_39d05d051d7482a30fe9e9f411ddc755 = L.circle(
+                [36.1402177112321, 139.352327183164],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_6c8e9b6428ae2d4738f69266d6ae0b18 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_d59f196a79dce024e3961178ff93bc7e = $(`<div id="html_d59f196a79dce024e3961178ff93bc7e" style="width: 100.0%; height: 100.0%;">     <b>#12 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 500<br>     施設区分: その他<br>     施設: 荒川土手（広瀬）<br>     住所: 熊谷市広瀬<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_6c8e9b6428ae2d4738f69266d6ae0b18.setContent(html_d59f196a79dce024e3961178ff93bc7e);
+            
+        
+
+        circle_39d05d051d7482a30fe9e9f411ddc755.bindPopup(popup_6c8e9b6428ae2d4738f69266d6ae0b18)
+        ;
+
+        
+    
+    
+            var circle_marker_0376329cd1002a041f71eb8d14f0ea64 = L.circleMarker(
+                [36.1402177112321, 139.352327183164],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.4535599249993, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_a7ad53b6a0b00e5a86b7331668b1278e = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_a992d7d160b1596d68040c8e62f077f6 = $(`<div id="html_a992d7d160b1596d68040c8e62f077f6" style="width: 100.0%; height: 100.0%;">     <b>#12 熊谷市</b><br>     予測半径: 1500m<br>     成虫頭数: 500<br>     施設区分: その他<br>     施設: 荒川土手（広瀬）<br>     住所: 熊谷市広瀬<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_a7ad53b6a0b00e5a86b7331668b1278e.setContent(html_a992d7d160b1596d68040c8e62f077f6);
+            
+        
+
+        circle_marker_0376329cd1002a041f71eb8d14f0ea64.bindPopup(popup_a7ad53b6a0b00e5a86b7331668b1278e)
+        ;
+
+        
+    
+    
+            circle_marker_0376329cd1002a041f71eb8d14f0ea64.bindTooltip(
+                `<div>
+                     #12 熊谷市 / 成虫 500
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_cea9ef966138197c600a630ed2dd3fdc = L.circle(
+                [36.1468279314165, 139.364749131012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_9d4de666609067a5d1dbfa2f3b3c5ee1 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_6b272e78f51211beb571ca92feade612 = $(`<div id="html_6b272e78f51211beb571ca92feade612" style="width: 100.0%; height: 100.0%;">     <b>#13 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 400<br>     施設区分: その他<br>     施設: 赤城町<br>     住所: 熊谷市赤城町地内<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_9d4de666609067a5d1dbfa2f3b3c5ee1.setContent(html_6b272e78f51211beb571ca92feade612);
+            
+        
+
+        circle_cea9ef966138197c600a630ed2dd3fdc.bindPopup(popup_9d4de666609067a5d1dbfa2f3b3c5ee1)
+        ;
+
+        
+    
+    
+            var circle_marker_be03991ff60ab0b1c4b37e11b27c3fa1 = L.circleMarker(
+                [36.1468279314165, 139.364749131012],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.666666666666668, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_664617c0af8932ec8cde8a1d00ddd60e = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_42158d75d5fb509b2d0a86caf9bf9d4f = $(`<div id="html_42158d75d5fb509b2d0a86caf9bf9d4f" style="width: 100.0%; height: 100.0%;">     <b>#13 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 400<br>     施設区分: その他<br>     施設: 赤城町<br>     住所: 熊谷市赤城町地内<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_664617c0af8932ec8cde8a1d00ddd60e.setContent(html_42158d75d5fb509b2d0a86caf9bf9d4f);
+            
+        
+
+        circle_marker_be03991ff60ab0b1c4b37e11b27c3fa1.bindPopup(popup_664617c0af8932ec8cde8a1d00ddd60e)
+        ;
+
+        
+    
+    
+            circle_marker_be03991ff60ab0b1c4b37e11b27c3fa1.bindTooltip(
+                `<div>
+                     #13 熊谷市 / 成虫 400
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_66ab97721450467a0ce222b93c5837d2 = L.circle(
+                [36.1345759650078, 139.390618032287],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_89820c454a825fde117a908949e7d329 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_d9f47c2699c3adb0ce387e29b5bab621 = $(`<div id="html_d9f47c2699c3adb0ce387e29b5bab621" style="width: 100.0%; height: 100.0%;">     <b>#14 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 400<br>     施設区分: その他<br>     施設: 万平地内<br>     住所: 熊谷市万平町<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_89820c454a825fde117a908949e7d329.setContent(html_d9f47c2699c3adb0ce387e29b5bab621);
+            
+        
+
+        circle_66ab97721450467a0ce222b93c5837d2.bindPopup(popup_89820c454a825fde117a908949e7d329)
+        ;
+
+        
+    
+    
+            var circle_marker_4ab401f38c63668aac61357ba43e35d5 = L.circleMarker(
+                [36.1345759650078, 139.390618032287],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.666666666666668, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_682242301857cb272ccec5032178733a = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_51c1b579f923980ec459b01cf3b654bc = $(`<div id="html_51c1b579f923980ec459b01cf3b654bc" style="width: 100.0%; height: 100.0%;">     <b>#14 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 400<br>     施設区分: その他<br>     施設: 万平地内<br>     住所: 熊谷市万平町<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_682242301857cb272ccec5032178733a.setContent(html_51c1b579f923980ec459b01cf3b654bc);
+            
+        
+
+        circle_marker_4ab401f38c63668aac61357ba43e35d5.bindPopup(popup_682242301857cb272ccec5032178733a)
+        ;
+
+        
+    
+    
+            circle_marker_4ab401f38c63668aac61357ba43e35d5.bindTooltip(
+                `<div>
+                     #14 熊谷市 / 成虫 400
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_1d82368f5977dda9846945dc986166ed = L.circle(
+                [36.2223464324213, 139.375463440993],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_53e360d99585af6dd77fe50dcfbc08a0 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_070a5e0c25ebea77f76380e96922df12 = $(`<div id="html_070a5e0c25ebea77f76380e96922df12" style="width: 100.0%; height: 100.0%;">     <b>#15 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 342<br>     施設区分: 公園<br>     施設: さくら公園<br>     住所: 熊谷市妻沼１７２０－４<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_53e360d99585af6dd77fe50dcfbc08a0.setContent(html_070a5e0c25ebea77f76380e96922df12);
+            
+        
+
+        circle_1d82368f5977dda9846945dc986166ed.bindPopup(popup_53e360d99585af6dd77fe50dcfbc08a0)
+        ;
+
+        
+    
+    
+            var circle_marker_445ba4a8b7fb31890380b4e0c7e3d0c1 = L.circleMarker(
+                [36.2223464324213, 139.375463440993],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.164414002968975, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_91dbc7a0ff5cfe9496d88e5b3b55da9a = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_b92e22088bfe6a5c853d3eee86c5f01a = $(`<div id="html_b92e22088bfe6a5c853d3eee86c5f01a" style="width: 100.0%; height: 100.0%;">     <b>#15 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 342<br>     施設区分: 公園<br>     施設: さくら公園<br>     住所: 熊谷市妻沼１７２０－４<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_91dbc7a0ff5cfe9496d88e5b3b55da9a.setContent(html_b92e22088bfe6a5c853d3eee86c5f01a);
+            
+        
+
+        circle_marker_445ba4a8b7fb31890380b4e0c7e3d0c1.bindPopup(popup_91dbc7a0ff5cfe9496d88e5b3b55da9a)
+        ;
+
+        
+    
+    
+            circle_marker_445ba4a8b7fb31890380b4e0c7e3d0c1.bindTooltip(
+                `<div>
+                     #15 熊谷市 / 成虫 342
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_dee172aa653e48c15bc71ba0c7386574 = L.circle(
+                [36.2244648925777, 139.358990658158],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_9a9c66ff1cf6fc247d9598782819d735 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_35feaf5766d981e59ab42c555ba39757 = $(`<div id="html_35feaf5766d981e59ab42c555ba39757" style="width: 100.0%; height: 100.0%;">     <b>#16 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 333<br>     施設区分: 公園<br>     施設: 妻沼運動公園<br>     住所: 熊谷市飯塚２００－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_9a9c66ff1cf6fc247d9598782819d735.setContent(html_35feaf5766d981e59ab42c555ba39757);
+            
+        
+
+        circle_dee172aa653e48c15bc71ba0c7386574.bindPopup(popup_9a9c66ff1cf6fc247d9598782819d735)
+        ;
+
+        
+    
+    
+            var circle_marker_9952764517e0e0b05d283e1aa6c285b4 = L.circleMarker(
+                [36.2244648925777, 139.358990658158],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.082762530298218, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_443638d14fe8d1a0f3d6a6ea1ebd5324 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_7613312c1082d36d6a2de08854e0b652 = $(`<div id="html_7613312c1082d36d6a2de08854e0b652" style="width: 100.0%; height: 100.0%;">     <b>#16 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 333<br>     施設区分: 公園<br>     施設: 妻沼運動公園<br>     住所: 熊谷市飯塚２００－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_443638d14fe8d1a0f3d6a6ea1ebd5324.setContent(html_7613312c1082d36d6a2de08854e0b652);
+            
+        
+
+        circle_marker_9952764517e0e0b05d283e1aa6c285b4.bindPopup(popup_443638d14fe8d1a0f3d6a6ea1ebd5324)
+        ;
+
+        
+    
+    
+            circle_marker_9952764517e0e0b05d283e1aa6c285b4.bindTooltip(
+                `<div>
+                     #16 熊谷市 / 成虫 333
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_c5ff5cab1eaf2ba572da63a268d19303 = L.circle(
+                [36.1480916203353, 139.390315212782],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_000f4a7feb8fba90b0911d0123e2197f = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_967d5bae794be48b2c0932a0e047e675 = $(`<div id="html_967d5bae794be48b2c0932a0e047e675" style="width: 100.0%; height: 100.0%;">     <b>#17 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 325<br>     施設区分: 公園<br>     施設: 中央公園<br>     住所: 熊谷市宮町２－３７－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_000f4a7feb8fba90b0911d0123e2197f.setContent(html_967d5bae794be48b2c0932a0e047e675);
+            
+        
+
+        circle_c5ff5cab1eaf2ba572da63a268d19303.bindPopup(popup_000f4a7feb8fba90b0911d0123e2197f)
+        ;
+
+        
+    
+    
+            var circle_marker_6ec8ff0e0cc24c0cacf2926b9bd1157b = L.circleMarker(
+                [36.1480916203353, 139.390315212782],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.009252125773315, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_52f63817d0b292b61ba908c2260e215b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_d52745d401b8e302eb0f33493fbab320 = $(`<div id="html_d52745d401b8e302eb0f33493fbab320" style="width: 100.0%; height: 100.0%;">     <b>#17 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 325<br>     施設区分: 公園<br>     施設: 中央公園<br>     住所: 熊谷市宮町２－３７－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_52f63817d0b292b61ba908c2260e215b.setContent(html_d52745d401b8e302eb0f33493fbab320);
+            
+        
+
+        circle_marker_6ec8ff0e0cc24c0cacf2926b9bd1157b.bindPopup(popup_52f63817d0b292b61ba908c2260e215b)
+        ;
+
+        
+    
+    
+            circle_marker_6ec8ff0e0cc24c0cacf2926b9bd1157b.bindTooltip(
+                `<div>
+                     #17 熊谷市 / 成虫 325
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_0c969d57747c8709231d5444f87d15df = L.circle(
+                [36.2100064340137, 139.400001299185],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_729ea1ba505082a8cbf2e68bab7ae028 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_4c0af5ed57a9d34b8233cfe2545ffb96 = $(`<div id="html_4c0af5ed57a9d34b8233cfe2545ffb96" style="width: 100.0%; height: 100.0%;">     <b>#18 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 312<br>     施設区分: その他<br>     施設: 備前堀<br>     住所: 熊谷市上須戸<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_729ea1ba505082a8cbf2e68bab7ae028.setContent(html_4c0af5ed57a9d34b8233cfe2545ffb96);
+            
+        
+
+        circle_0c969d57747c8709231d5444f87d15df.bindPopup(popup_729ea1ba505082a8cbf2e68bab7ae028)
+        ;
+
+        
+    
+    
+            var circle_marker_2300584a667c2b201ec1a3a432c903f6 = L.circleMarker(
+                [36.2100064340137, 139.400001299185],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.887840577551898, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_b85fa8854e144c969ff6370dae0d8b51 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_dea63213365ea6d0a28f1126e5d257cc = $(`<div id="html_dea63213365ea6d0a28f1126e5d257cc" style="width: 100.0%; height: 100.0%;">     <b>#18 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 312<br>     施設区分: その他<br>     施設: 備前堀<br>     住所: 熊谷市上須戸<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_b85fa8854e144c969ff6370dae0d8b51.setContent(html_dea63213365ea6d0a28f1126e5d257cc);
+            
+        
+
+        circle_marker_2300584a667c2b201ec1a3a432c903f6.bindPopup(popup_b85fa8854e144c969ff6370dae0d8b51)
+        ;
+
+        
+    
+    
+            circle_marker_2300584a667c2b201ec1a3a432c903f6.bindTooltip(
+                `<div>
+                     #18 熊谷市 / 成虫 312
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_6d51263c91fd44aeef3804fbf17b9552 = L.circle(
+                [36.1384073920982, 139.36346008235],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_c2abc486f6a32ef6825417499278385c = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f2c275aa453d9cb8f849757e4bad973b = $(`<div id="html_f2c275aa453d9cb8f849757e4bad973b" style="width: 100.0%; height: 100.0%;">     <b>#19 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 280<br>     施設区分: その他<br>     施設: 荒川土手<br>     住所: 熊谷市石原<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_c2abc486f6a32ef6825417499278385c.setContent(html_f2c275aa453d9cb8f849757e4bad973b);
+            
+        
+
+        circle_6d51263c91fd44aeef3804fbf17b9552.bindPopup(popup_c2abc486f6a32ef6825417499278385c)
+        ;
+
+        
+    
+    
+            var circle_marker_228b2484800ad83e6687fff12e39972c = L.circleMarker(
+                [36.1384073920982, 139.36346008235],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.57773351022717, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_e0c78e8c908f33f14687de054e4b656b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_8f57f7dcb00f5c9a00c4039fc13fad93 = $(`<div id="html_8f57f7dcb00f5c9a00c4039fc13fad93" style="width: 100.0%; height: 100.0%;">     <b>#19 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 280<br>     施設区分: その他<br>     施設: 荒川土手<br>     住所: 熊谷市石原<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_e0c78e8c908f33f14687de054e4b656b.setContent(html_8f57f7dcb00f5c9a00c4039fc13fad93);
+            
+        
+
+        circle_marker_228b2484800ad83e6687fff12e39972c.bindPopup(popup_e0c78e8c908f33f14687de054e4b656b)
+        ;
+
+        
+    
+    
+            circle_marker_228b2484800ad83e6687fff12e39972c.bindTooltip(
+                `<div>
+                     #19 熊谷市 / 成虫 280
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_0409ceca251c01eab5f1a110697f1342 = L.circle(
+                [36.1524860409316, 139.37884357853],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_9ac5be15254d027b99b727a71113ee7e = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_b30b904f4b848cac2e557ca1fdf8489a = $(`<div id="html_b30b904f4b848cac2e557ca1fdf8489a" style="width: 100.0%; height: 100.0%;">     <b>#20 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 266<br>     施設区分: 学校等<br>     施設: 石原小学校<br>     住所: 熊谷市石原３－１－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_9ac5be15254d027b99b727a71113ee7e.setContent(html_b30b904f4b848cac2e557ca1fdf8489a);
+            
+        
+
+        circle_0409ceca251c01eab5f1a110697f1342.bindPopup(popup_9ac5be15254d027b99b727a71113ee7e)
+        ;
+
+        
+    
+    
+            var circle_marker_f771fb29d7f2450fbd1d32e5ad5e1017 = L.circleMarker(
+                [36.1524860409316, 139.37884357853],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.436502143433362, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_f19975362ec8ce2f38e1008a38caa2e4 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_9e44c0c85fa33103eb14367224722720 = $(`<div id="html_9e44c0c85fa33103eb14367224722720" style="width: 100.0%; height: 100.0%;">     <b>#20 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 266<br>     施設区分: 学校等<br>     施設: 石原小学校<br>     住所: 熊谷市石原３－１－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_f19975362ec8ce2f38e1008a38caa2e4.setContent(html_9e44c0c85fa33103eb14367224722720);
+            
+        
+
+        circle_marker_f771fb29d7f2450fbd1d32e5ad5e1017.bindPopup(popup_f19975362ec8ce2f38e1008a38caa2e4)
+        ;
+
+        
+    
+    
+            circle_marker_f771fb29d7f2450fbd1d32e5ad5e1017.bindTooltip(
+                `<div>
+                     #20 熊谷市 / 成虫 266
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_397ba111c45c13a77417d5e4079e2c44 = L.circle(
+                [36.1444288422862, 139.372215367613],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_d682fb9a8d9c02fde49aa56ec9e00bd3 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e3cec67487d2a80c3bd56b4f9d3ed3c6 = $(`<div id="html_e3cec67487d2a80c3bd56b4f9d3ed3c6" style="width: 100.0%; height: 100.0%;">     <b>#21 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 254<br>     施設区分: 公園<br>     施設: 伊勢町ふれあい公園<br>     住所: 熊谷市伊勢町９４<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_d682fb9a8d9c02fde49aa56ec9e00bd3.setContent(html_e3cec67487d2a80c3bd56b4f9d3ed3c6);
+            
+        
+
+        circle_397ba111c45c13a77417d5e4079e2c44.bindPopup(popup_d682fb9a8d9c02fde49aa56ec9e00bd3)
+        ;
+
+        
+    
+    
+            var circle_marker_71d6202cd4efff0e9c282b22009a6bf7 = L.circleMarker(
+                [36.1444288422862, 139.372215367613],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.312459150169744, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_97a5753e637bf495f93aac450e865fc5 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_d2967c9911c4502395fbf87228e20ff8 = $(`<div id="html_d2967c9911c4502395fbf87228e20ff8" style="width: 100.0%; height: 100.0%;">     <b>#21 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 254<br>     施設区分: 公園<br>     施設: 伊勢町ふれあい公園<br>     住所: 熊谷市伊勢町９４<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_97a5753e637bf495f93aac450e865fc5.setContent(html_d2967c9911c4502395fbf87228e20ff8);
+            
+        
+
+        circle_marker_71d6202cd4efff0e9c282b22009a6bf7.bindPopup(popup_97a5753e637bf495f93aac450e865fc5)
+        ;
+
+        
+    
+    
+            circle_marker_71d6202cd4efff0e9c282b22009a6bf7.bindTooltip(
+                `<div>
+                     #21 熊谷市 / 成虫 254
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2f805223c68bee5e5381ba6be1933416 = L.circle(
+                [36.1810861312304, 139.401507539556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_7c1748cdd04d1284958044d247420b3c = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_dd3c6cfc9a496e78c036f723d32eae72 = $(`<div id="html_dd3c6cfc9a496e78c036f723d32eae72" style="width: 100.0%; height: 100.0%;">     <b>#22 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 240<br>     施設区分: 個人宅<br>     施設: 個人宅<br>     住所: 熊谷市上中条８５０－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_7c1748cdd04d1284958044d247420b3c.setContent(html_dd3c6cfc9a496e78c036f723d32eae72);
+            
+        
+
+        circle_2f805223c68bee5e5381ba6be1933416.bindPopup(popup_7c1748cdd04d1284958044d247420b3c)
+        ;
+
+        
+    
+    
+            var circle_marker_b41111281f494a082d6ec0d2e0a6b328 = L.circleMarker(
+                [36.1810861312304, 139.401507539556],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.163977794943222, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_c2da5e2284dbb4a285d5120accf20c47 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_ceb950939626ad0bd8d7f14c85f1e5ff = $(`<div id="html_ceb950939626ad0bd8d7f14c85f1e5ff" style="width: 100.0%; height: 100.0%;">     <b>#22 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 240<br>     施設区分: 個人宅<br>     施設: 個人宅<br>     住所: 熊谷市上中条８５０－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_c2da5e2284dbb4a285d5120accf20c47.setContent(html_ceb950939626ad0bd8d7f14c85f1e5ff);
+            
+        
+
+        circle_marker_b41111281f494a082d6ec0d2e0a6b328.bindPopup(popup_c2da5e2284dbb4a285d5120accf20c47)
+        ;
+
+        
+    
+    
+            circle_marker_b41111281f494a082d6ec0d2e0a6b328.bindTooltip(
+                `<div>
+                     #22 熊谷市 / 成虫 240
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_b7c2f339992f4b3b138605986a259703 = L.circle(
+                [36.1389265200276, 139.378928617918],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_d7cdd4fc918650b1cfb009473b261be1 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_04b38c4d2c3a70eda03d428a3b3ab2d3 = $(`<div id="html_04b38c4d2c3a70eda03d428a3b3ab2d3" style="width: 100.0%; height: 100.0%;">     <b>#23 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 227<br>     施設区分: 学校等<br>     施設: 熊谷南小学校<br>     住所: 熊谷市榎町３４３<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_d7cdd4fc918650b1cfb009473b261be1.setContent(html_04b38c4d2c3a70eda03d428a3b3ab2d3);
+            
+        
+
+        circle_b7c2f339992f4b3b138605986a259703.bindPopup(popup_d7cdd4fc918650b1cfb009473b261be1)
+        ;
+
+        
+    
+    
+            var circle_marker_31b02fe013b85b2ba647c3aa832fb12e = L.circleMarker(
+                [36.1389265200276, 139.378928617918],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.02217305777312, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_443e8cfd307c17504cb082a9f6f24702 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_3cedd687d1e8283e5a5cf925ca4a4a4c = $(`<div id="html_3cedd687d1e8283e5a5cf925ca4a4a4c" style="width: 100.0%; height: 100.0%;">     <b>#23 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 227<br>     施設区分: 学校等<br>     施設: 熊谷南小学校<br>     住所: 熊谷市榎町３４３<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_443e8cfd307c17504cb082a9f6f24702.setContent(html_3cedd687d1e8283e5a5cf925ca4a4a4c);
+            
+        
+
+        circle_marker_31b02fe013b85b2ba647c3aa832fb12e.bindPopup(popup_443e8cfd307c17504cb082a9f6f24702)
+        ;
+
+        
+    
+    
+            circle_marker_31b02fe013b85b2ba647c3aa832fb12e.bindTooltip(
+                `<div>
+                     #23 熊谷市 / 成虫 227
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_3777743430149c3a4fb46fe7d43ede63 = L.circle(
+                [36.1462625494409, 139.361020336241],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_2ee278fe865e075015535981287da332 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_2eab8cf3f4050d5503a6c38370690bf2 = $(`<div id="html_2eab8cf3f4050d5503a6c38370690bf2" style="width: 100.0%; height: 100.0%;">     <b>#24 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 222<br>     施設区分: その他<br>     施設: 桜堤<br>     住所: 熊谷市赤城町<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_2ee278fe865e075015535981287da332.setContent(html_2eab8cf3f4050d5503a6c38370690bf2);
+            
+        
+
+        circle_3777743430149c3a4fb46fe7d43ede63.bindPopup(popup_2ee278fe865e075015535981287da332)
+        ;
+
+        
+    
+    
+            var circle_marker_f3b58ff5760b64ab9ebbfe20c07aa002 = L.circleMarker(
+                [36.1462625494409, 139.361020336241],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.96655480858378, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_5bd061f27944bba7f066053c2d45e903 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_73f787fd26240f3163d83d52bc7a6780 = $(`<div id="html_73f787fd26240f3163d83d52bc7a6780" style="width: 100.0%; height: 100.0%;">     <b>#24 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 222<br>     施設区分: その他<br>     施設: 桜堤<br>     住所: 熊谷市赤城町<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_5bd061f27944bba7f066053c2d45e903.setContent(html_73f787fd26240f3163d83d52bc7a6780);
+            
+        
+
+        circle_marker_f3b58ff5760b64ab9ebbfe20c07aa002.bindPopup(popup_5bd061f27944bba7f066053c2d45e903)
+        ;
+
+        
+    
+    
+            circle_marker_f3b58ff5760b64ab9ebbfe20c07aa002.bindTooltip(
+                `<div>
+                     #24 熊谷市 / 成虫 222
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_b811b3891b9f88c5ad55a273bb93fe79 = L.circle(
+                [36.1810526933739, 139.33924770428],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_4bce7a9ee10f1c1a0bb0725efc473778 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_d58a8b54fb16871d8757e75355a58eed = $(`<div id="html_d58a8b54fb16871d8757e75355a58eed" style="width: 100.0%; height: 100.0%;">     <b>#25 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 212<br>     施設区分: 公園<br>     施設: コクーン公園<br>     住所: 熊谷市別府５－１８５<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_4bce7a9ee10f1c1a0bb0725efc473778.setContent(html_d58a8b54fb16871d8757e75355a58eed);
+            
+        
+
+        circle_b811b3891b9f88c5ad55a273bb93fe79.bindPopup(popup_4bce7a9ee10f1c1a0bb0725efc473778)
+        ;
+
+        
+    
+    
+            var circle_marker_bd1a1ca3a9791220862527279e5c8a6a = L.circleMarker(
+                [36.1810526933739, 139.33924770428],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.853406592853679, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_cdb6adc08040d6595d9d099ff6a70eb8 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_3303a26af7913213b437f0fd30cd79ad = $(`<div id="html_3303a26af7913213b437f0fd30cd79ad" style="width: 100.0%; height: 100.0%;">     <b>#25 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 212<br>     施設区分: 公園<br>     施設: コクーン公園<br>     住所: 熊谷市別府５－１８５<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_cdb6adc08040d6595d9d099ff6a70eb8.setContent(html_3303a26af7913213b437f0fd30cd79ad);
+            
+        
+
+        circle_marker_bd1a1ca3a9791220862527279e5c8a6a.bindPopup(popup_cdb6adc08040d6595d9d099ff6a70eb8)
+        ;
+
+        
+    
+    
+            circle_marker_bd1a1ca3a9791220862527279e5c8a6a.bindTooltip(
+                `<div>
+                     #25 熊谷市 / 成虫 212
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_20c58a34a88649316f5302a3659aa4a0 = L.circle(
+                [36.2066892491905, 139.400234081569],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_8931ae29663f0ce3b88476971ba46a16 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0deb1caa9c39512af75f4cfcd3c928f2 = $(`<div id="html_0deb1caa9c39512af75f4cfcd3c928f2" style="width: 100.0%; height: 100.0%;">     <b>#26 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 200<br>     施設区分: 公園<br>     施設: 妻沼東運動公園<br>     住所: 熊谷市上須戸1012<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_8931ae29663f0ce3b88476971ba46a16.setContent(html_0deb1caa9c39512af75f4cfcd3c928f2);
+            
+        
+
+        circle_20c58a34a88649316f5302a3659aa4a0.bindPopup(popup_8931ae29663f0ce3b88476971ba46a16)
+        ;
+
+        
+    
+    
+            var circle_marker_4935b05de94bb7c4a4b6f87dfff96644 = L.circleMarker(
+                [36.2066892491905, 139.400234081569],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.714045207910317, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_91f57b6c5bc41da35118c52ea0e10f39 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_8a8b4baf9086cf41aff2254b8a8e4361 = $(`<div id="html_8a8b4baf9086cf41aff2254b8a8e4361" style="width: 100.0%; height: 100.0%;">     <b>#26 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 200<br>     施設区分: 公園<br>     施設: 妻沼東運動公園<br>     住所: 熊谷市上須戸1012<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_91f57b6c5bc41da35118c52ea0e10f39.setContent(html_8a8b4baf9086cf41aff2254b8a8e4361);
+            
+        
+
+        circle_marker_4935b05de94bb7c4a4b6f87dfff96644.bindPopup(popup_91f57b6c5bc41da35118c52ea0e10f39)
+        ;
+
+        
+    
+    
+            circle_marker_4935b05de94bb7c4a4b6f87dfff96644.bindTooltip(
+                `<div>
+                     #26 熊谷市 / 成虫 200
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a70086d6c685753f2214b00591be4e9f = L.circle(
+                [36.1465000005006, 139.362738453121],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_94dea365e0b0e1e5e9d318d17b0ed007 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_68e137a1dfad0e8df61dc44cd0953cc2 = $(`<div id="html_68e137a1dfad0e8df61dc44cd0953cc2" style="width: 100.0%; height: 100.0%;">     <b>#27 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 200<br>     施設区分: 個人宅<br>     施設: 個人宅<br>     住所: 熊谷市赤城町1-147-12<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_94dea365e0b0e1e5e9d318d17b0ed007.setContent(html_68e137a1dfad0e8df61dc44cd0953cc2);
+            
+        
+
+        circle_a70086d6c685753f2214b00591be4e9f.bindPopup(popup_94dea365e0b0e1e5e9d318d17b0ed007)
+        ;
+
+        
+    
+    
+            var circle_marker_b91b5e12255b3eaa6e478ec11e86e6b6 = L.circleMarker(
+                [36.1465000005006, 139.362738453121],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.714045207910317, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_353af6c7ecee4958e01445baa431220b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_ca9e1a292407becae916614a945f9998 = $(`<div id="html_ca9e1a292407becae916614a945f9998" style="width: 100.0%; height: 100.0%;">     <b>#27 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 200<br>     施設区分: 個人宅<br>     施設: 個人宅<br>     住所: 熊谷市赤城町1-147-12<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_353af6c7ecee4958e01445baa431220b.setContent(html_ca9e1a292407becae916614a945f9998);
+            
+        
+
+        circle_marker_b91b5e12255b3eaa6e478ec11e86e6b6.bindPopup(popup_353af6c7ecee4958e01445baa431220b)
+        ;
+
+        
+    
+    
+            circle_marker_b91b5e12255b3eaa6e478ec11e86e6b6.bindTooltip(
+                `<div>
+                     #27 熊谷市 / 成虫 200
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_873b41f26fbbfc1e5f22f2dc7110900e = L.circle(
+                [36.186691592676, 139.38233449762],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_ffaa7121cea943e141947a8fb4c4a497 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_599bebe2fd45bf18721c807d22345caf = $(`<div id="html_599bebe2fd45bf18721c807d22345caf" style="width: 100.0%; height: 100.0%;">     <b>#28 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 200<br>     施設区分: その他<br>     施設: 下奈良地区<br>     住所: 熊谷市下奈良<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_ffaa7121cea943e141947a8fb4c4a497.setContent(html_599bebe2fd45bf18721c807d22345caf);
+            
+        
+
+        circle_873b41f26fbbfc1e5f22f2dc7110900e.bindPopup(popup_ffaa7121cea943e141947a8fb4c4a497)
+        ;
+
+        
+    
+    
+            var circle_marker_d42d6ea3a110a49c6e503ad56f369a55 = L.circleMarker(
+                [36.186691592676, 139.38233449762],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.714045207910317, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_4de3a142ff9d07b08cee41dde50baa6c = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_2ff47624f31f84c00783ef79c22817fe = $(`<div id="html_2ff47624f31f84c00783ef79c22817fe" style="width: 100.0%; height: 100.0%;">     <b>#28 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 200<br>     施設区分: その他<br>     施設: 下奈良地区<br>     住所: 熊谷市下奈良<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_4de3a142ff9d07b08cee41dde50baa6c.setContent(html_2ff47624f31f84c00783ef79c22817fe);
+            
+        
+
+        circle_marker_d42d6ea3a110a49c6e503ad56f369a55.bindPopup(popup_4de3a142ff9d07b08cee41dde50baa6c)
+        ;
+
+        
+    
+    
+            circle_marker_d42d6ea3a110a49c6e503ad56f369a55.bindTooltip(
+                `<div>
+                     #28 熊谷市 / 成虫 200
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a2126d4414cc79ca9fc6dfb51ff0513f = L.circle(
+                [36.1358667728145, 139.391409661057],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_4fe86a21f702958108d0a9e3db0e17e9 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c394be997c41e571f7d221f59c2434e1 = $(`<div id="html_c394be997c41e571f7d221f59c2434e1" style="width: 100.0%; height: 100.0%;">     <b>#29 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 200<br>     施設区分: 公園<br>     施設: 万平公園<br>     住所: 熊谷市万平町１丁目<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_4fe86a21f702958108d0a9e3db0e17e9.setContent(html_c394be997c41e571f7d221f59c2434e1);
+            
+        
+
+        circle_a2126d4414cc79ca9fc6dfb51ff0513f.bindPopup(popup_4fe86a21f702958108d0a9e3db0e17e9)
+        ;
+
+        
+    
+    
+            var circle_marker_27b639319c11913beebacd42f3b5c086 = L.circleMarker(
+                [36.1358667728145, 139.391409661057],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.714045207910317, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_831129e1a52405e626d1c957769221ba = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e1e0f4455c589e310e4fa44ebb7770ae = $(`<div id="html_e1e0f4455c589e310e4fa44ebb7770ae" style="width: 100.0%; height: 100.0%;">     <b>#29 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 200<br>     施設区分: 公園<br>     施設: 万平公園<br>     住所: 熊谷市万平町１丁目<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_831129e1a52405e626d1c957769221ba.setContent(html_e1e0f4455c589e310e4fa44ebb7770ae);
+            
+        
+
+        circle_marker_27b639319c11913beebacd42f3b5c086.bindPopup(popup_831129e1a52405e626d1c957769221ba)
+        ;
+
+        
+    
+    
+            circle_marker_27b639319c11913beebacd42f3b5c086.bindTooltip(
+                `<div>
+                     #29 熊谷市 / 成虫 200
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f2d9aa9306c6cd159a4463b3b78e4b47 = L.circle(
+                [36.1537881638751, 139.375355997302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_3863112011454b0e7fc21408b8523d55 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_951ab9520fd7f4902fde7c9ad7bbc270 = $(`<div id="html_951ab9520fd7f4902fde7c9ad7bbc270" style="width: 100.0%; height: 100.0%;">     <b>#30 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 200<br>     施設区分: 個人宅<br>     施設: 個人宅<br>     住所: 熊谷市大原３－５－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_3863112011454b0e7fc21408b8523d55.setContent(html_951ab9520fd7f4902fde7c9ad7bbc270);
+            
+        
+
+        circle_f2d9aa9306c6cd159a4463b3b78e4b47.bindPopup(popup_3863112011454b0e7fc21408b8523d55)
+        ;
+
+        
+    
+    
+            var circle_marker_6f2b81897a4a543282de4777d4a9247d = L.circleMarker(
+                [36.1537881638751, 139.375355997302],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.714045207910317, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_64800cf3aa8c426d7dd3536dfaaaece5 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_3c3e04338e54e5bf3df8ab79e3b87181 = $(`<div id="html_3c3e04338e54e5bf3df8ab79e3b87181" style="width: 100.0%; height: 100.0%;">     <b>#30 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 200<br>     施設区分: 個人宅<br>     施設: 個人宅<br>     住所: 熊谷市大原３－５－１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_64800cf3aa8c426d7dd3536dfaaaece5.setContent(html_3c3e04338e54e5bf3df8ab79e3b87181);
+            
+        
+
+        circle_marker_6f2b81897a4a543282de4777d4a9247d.bindPopup(popup_64800cf3aa8c426d7dd3536dfaaaece5)
+        ;
+
+        
+    
+    
+            circle_marker_6f2b81897a4a543282de4777d4a9247d.bindTooltip(
+                `<div>
+                     #30 熊谷市 / 成虫 200
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_4abce5635ffa71161d70ffd5e9a28e37 = L.circle(
+                [36.1464395127162, 139.358123347455],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_296eaf1f95f38e36fbd9c86d21b1477b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_66d5d4b4fe9394ccb6392112a9247d0a = $(`<div id="html_66d5d4b4fe9394ccb6392112a9247d0a" style="width: 100.0%; height: 100.0%;">     <b>#31 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 178<br>     施設区分: 民間施設<br>     施設: 熊谷ゴルフクラブ<br>     住所: 熊谷市石原１４３１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_296eaf1f95f38e36fbd9c86d21b1477b.setContent(html_66d5d4b4fe9394ccb6392112a9247d0a);
+            
+        
+
+        circle_4abce5635ffa71161d70ffd5e9a28e37.bindPopup(popup_296eaf1f95f38e36fbd9c86d21b1477b)
+        ;
+
+        
+    
+    
+            var circle_marker_ec13ebefd7a3a6379f22abe8cece28b1 = L.circleMarker(
+                [36.1464395127162, 139.358123347455],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.447221354708777, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_a4070406f64a336acc4e55bcc770eaab = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e1e00631e44ba1c07af6df8553b4d072 = $(`<div id="html_e1e00631e44ba1c07af6df8553b4d072" style="width: 100.0%; height: 100.0%;">     <b>#31 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 178<br>     施設区分: 民間施設<br>     施設: 熊谷ゴルフクラブ<br>     住所: 熊谷市石原１４３１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_a4070406f64a336acc4e55bcc770eaab.setContent(html_e1e00631e44ba1c07af6df8553b4d072);
+            
+        
+
+        circle_marker_ec13ebefd7a3a6379f22abe8cece28b1.bindPopup(popup_a4070406f64a336acc4e55bcc770eaab)
+        ;
+
+        
+    
+    
+            circle_marker_ec13ebefd7a3a6379f22abe8cece28b1.bindTooltip(
+                `<div>
+                     #31 熊谷市 / 成虫 178
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_20ca4d3ff8bea0f9539fcc78e3ba892e = L.circle(
+                [36.2244457183576, 139.349753281437],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_feef6910365a45805ada8df90940f006 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0e1fd2850f1f68c050eeaf048e53e276 = $(`<div id="html_0e1fd2850f1f68c050eeaf048e53e276" style="width: 100.0%; height: 100.0%;">     <b>#32 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 143<br>     施設区分: 公園<br>     施設: 妻沼西第一公園<br>     住所: 熊谷市妻沼西２丁目<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_feef6910365a45805ada8df90940f006.setContent(html_0e1fd2850f1f68c050eeaf048e53e276);
+            
+        
+
+        circle_20ca4d3ff8bea0f9539fcc78e3ba892e.bindPopup(popup_feef6910365a45805ada8df90940f006)
+        ;
+
+        
+    
+    
+            var circle_marker_ebac0965ecf1e690fd1df636697c13d1 = L.circleMarker(
+                [36.2244457183576, 139.349753281437],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.986086914367133, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_49afed27d61677cd02e554e0cfff243a = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_3d6c0d727c408953af0a6196a041e4f9 = $(`<div id="html_3d6c0d727c408953af0a6196a041e4f9" style="width: 100.0%; height: 100.0%;">     <b>#32 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 143<br>     施設区分: 公園<br>     施設: 妻沼西第一公園<br>     住所: 熊谷市妻沼西２丁目<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_49afed27d61677cd02e554e0cfff243a.setContent(html_3d6c0d727c408953af0a6196a041e4f9);
+            
+        
+
+        circle_marker_ebac0965ecf1e690fd1df636697c13d1.bindPopup(popup_49afed27d61677cd02e554e0cfff243a)
+        ;
+
+        
+    
+    
+            circle_marker_ebac0965ecf1e690fd1df636697c13d1.bindTooltip(
+                `<div>
+                     #32 熊谷市 / 成虫 143
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_8ab4166da571641d5f9b969a9da9bfdd = L.circle(
+                [36.1734241901764, 139.37298155833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_482b4446ca7f3d9cc791262ff6d27c08 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c59c57640faa1d4c9b1869f6751606ec = $(`<div id="html_c59c57640faa1d4c9b1869f6751606ec" style="width: 100.0%; height: 100.0%;">     <b>#33 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 143<br>     施設区分: その他<br>     施設: 代地内<br>     住所: 熊谷市代<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_482b4446ca7f3d9cc791262ff6d27c08.setContent(html_c59c57640faa1d4c9b1869f6751606ec);
+            
+        
+
+        circle_8ab4166da571641d5f9b969a9da9bfdd.bindPopup(popup_482b4446ca7f3d9cc791262ff6d27c08)
+        ;
+
+        
+    
+    
+            var circle_marker_05b60319cfb29ecce677d34a989f0958 = L.circleMarker(
+                [36.1734241901764, 139.37298155833],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.986086914367133, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_69f41770854f3caaec9b80f4edd79f1d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_6fdc6440c6a5ac65b313d2e8e837db43 = $(`<div id="html_6fdc6440c6a5ac65b313d2e8e837db43" style="width: 100.0%; height: 100.0%;">     <b>#33 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 143<br>     施設区分: その他<br>     施設: 代地内<br>     住所: 熊谷市代<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_69f41770854f3caaec9b80f4edd79f1d.setContent(html_6fdc6440c6a5ac65b313d2e8e837db43);
+            
+        
+
+        circle_marker_05b60319cfb29ecce677d34a989f0958.bindPopup(popup_69f41770854f3caaec9b80f4edd79f1d)
+        ;
+
+        
+    
+    
+            circle_marker_05b60319cfb29ecce677d34a989f0958.bindTooltip(
+                `<div>
+                     #33 熊谷市 / 成虫 143
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a2043eff189afb5cdc7ebdf3c9c8121a = L.circle(
+                [36.0770458618283, 139.423438418674],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_f6e966be33b68ff4596629e8073eece8 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_1f7d432cc283c1c0273fe78c57952e90 = $(`<div id="html_1f7d432cc283c1c0273fe78c57952e90" style="width: 100.0%; height: 100.0%;">     <b>#34 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 120<br>     施設区分: 民間施設<br>     施設: 民間施設<br>     住所: 熊谷市船木台4－１－1<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_f6e966be33b68ff4596629e8073eece8.setContent(html_1f7d432cc283c1c0273fe78c57952e90);
+            
+        
+
+        circle_a2043eff189afb5cdc7ebdf3c9c8121a.bindPopup(popup_f6e966be33b68ff4596629e8073eece8)
+        ;
+
+        
+    
+    
+            var circle_marker_0aa2a2b8218873dcd63614c7f4aff3b7 = L.circleMarker(
+                [36.0770458618283, 139.423438418674],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.651483716701108, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_0d9362640f3605e506273c0d981b588b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_35a4e52a476e9ea91db149806faeedaa = $(`<div id="html_35a4e52a476e9ea91db149806faeedaa" style="width: 100.0%; height: 100.0%;">     <b>#34 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 120<br>     施設区分: 民間施設<br>     施設: 民間施設<br>     住所: 熊谷市船木台4－１－1<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_0d9362640f3605e506273c0d981b588b.setContent(html_35a4e52a476e9ea91db149806faeedaa);
+            
+        
+
+        circle_marker_0aa2a2b8218873dcd63614c7f4aff3b7.bindPopup(popup_0d9362640f3605e506273c0d981b588b)
+        ;
+
+        
+    
+    
+            circle_marker_0aa2a2b8218873dcd63614c7f4aff3b7.bindTooltip(
+                `<div>
+                     #34 熊谷市 / 成虫 120
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_46249c67a8b17483aa5c1107ac0e0403 = L.circle(
+                [36.1312545802587, 139.394636461085],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_e872345b36a837c65cc2334cb8d0977d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_a25e2a8ffca182715723254f1b43d05b = $(`<div id="html_a25e2a8ffca182715723254f1b43d05b" style="width: 100.0%; height: 100.0%;">     <b>#35 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 116<br>     施設区分: その他<br>     施設: ポンプ場付近<br>     住所: 熊谷市佐谷田4024-2<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_e872345b36a837c65cc2334cb8d0977d.setContent(html_a25e2a8ffca182715723254f1b43d05b);
+            
+        
+
+        circle_46249c67a8b17483aa5c1107ac0e0403.bindPopup(popup_e872345b36a837c65cc2334cb8d0977d)
+        ;
+
+        
+    
+    
+            var circle_marker_c8649071d878a9a70d4d437989ec529b = L.circleMarker(
+                [36.1312545802587, 139.394636461085],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.590109871423003, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_df38f402b92c9af8a1f45e8cb7b93136 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f6c01a14b582af59b928b903f846280e = $(`<div id="html_f6c01a14b582af59b928b903f846280e" style="width: 100.0%; height: 100.0%;">     <b>#35 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 116<br>     施設区分: その他<br>     施設: ポンプ場付近<br>     住所: 熊谷市佐谷田4024-2<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_df38f402b92c9af8a1f45e8cb7b93136.setContent(html_f6c01a14b582af59b928b903f846280e);
+            
+        
+
+        circle_marker_c8649071d878a9a70d4d437989ec529b.bindPopup(popup_df38f402b92c9af8a1f45e8cb7b93136)
+        ;
+
+        
+    
+    
+            circle_marker_c8649071d878a9a70d4d437989ec529b.bindTooltip(
+                `<div>
+                     #35 熊谷市 / 成虫 116
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_16c30005e9a25615212b4a49277dd2e0 = L.circle(
+                [36.1321241999994, 139.499059999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_c0627122094aa433c74c60598f1a7cd9 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_d04f082b3d178a6ebed8298bfe29638a = $(`<div id="html_d04f082b3d178a6ebed8298bfe29638a" style="width: 100.0%; height: 100.0%;">     <b>#36 行田市</b><br>     予測半径: 1000m<br>     成虫頭数: 114<br>     施設区分: 公園<br>     施設: 古代蓮の里<br>     住所: 行田市小針<br>     樹種: サクラ<br>     確認日: 2024-07-13     </div>`)[0];
+                popup_c0627122094aa433c74c60598f1a7cd9.setContent(html_d04f082b3d178a6ebed8298bfe29638a);
+            
+        
+
+        circle_16c30005e9a25615212b4a49277dd2e0.bindPopup(popup_c0627122094aa433c74c60598f1a7cd9)
+        ;
+
+        
+    
+    
+            var circle_marker_1d66d04dfcb82dcc522efa44fe7182aa = L.circleMarker(
+                [36.1321241999994, 139.499059999998],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.559026084010437, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_9af92920f50852859b870b70b460d637 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c672b2bfa0218d8f23c330c4cca22f3f = $(`<div id="html_c672b2bfa0218d8f23c330c4cca22f3f" style="width: 100.0%; height: 100.0%;">     <b>#36 行田市</b><br>     予測半径: 1000m<br>     成虫頭数: 114<br>     施設区分: 公園<br>     施設: 古代蓮の里<br>     住所: 行田市小針<br>     樹種: サクラ<br>     確認日: 2024-07-13     </div>`)[0];
+                popup_9af92920f50852859b870b70b460d637.setContent(html_c672b2bfa0218d8f23c330c4cca22f3f);
+            
+        
+
+        circle_marker_1d66d04dfcb82dcc522efa44fe7182aa.bindPopup(popup_9af92920f50852859b870b70b460d637)
+        ;
+
+        
+    
+    
+            circle_marker_1d66d04dfcb82dcc522efa44fe7182aa.bindTooltip(
+                `<div>
+                     #36 行田市 / 成虫 114
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d2307b229913252cf5f43d04b93897c6 = L.circle(
+                [36.1547604509648, 139.391962223761],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_8dd770fc62c9db08bc2beb3123111129 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_96201b196d61730401db4d045e618b48 = $(`<div id="html_96201b196d61730401db4d045e618b48" style="width: 100.0%; height: 100.0%;">     <b>#37 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 113<br>     施設区分: 公園<br>     施設: 箱田第４公園<br>     住所: 熊谷市中央１－１９２<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_8dd770fc62c9db08bc2beb3123111129.setContent(html_96201b196d61730401db4d045e618b48);
+            
+        
+
+        circle_d2307b229913252cf5f43d04b93897c6.bindPopup(popup_8dd770fc62c9db08bc2beb3123111129)
+        ;
+
+        
+    
+    
+            var circle_marker_2654d3f800fd9707cf94bdbf45742934 = L.circleMarker(
+                [36.1547604509648, 139.391962223761],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.543381937578216, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_d79cd9390baea32707920248c26801e5 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_d3157c72dea2be5cc204a9014a8e0b83 = $(`<div id="html_d3157c72dea2be5cc204a9014a8e0b83" style="width: 100.0%; height: 100.0%;">     <b>#37 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 113<br>     施設区分: 公園<br>     施設: 箱田第４公園<br>     住所: 熊谷市中央１－１９２<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_d79cd9390baea32707920248c26801e5.setContent(html_d3157c72dea2be5cc204a9014a8e0b83);
+            
+        
+
+        circle_marker_2654d3f800fd9707cf94bdbf45742934.bindPopup(popup_d79cd9390baea32707920248c26801e5)
+        ;
+
+        
+    
+    
+            circle_marker_2654d3f800fd9707cf94bdbf45742934.bindTooltip(
+                `<div>
+                     #37 熊谷市 / 成虫 113
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_9071a0d17c11a2d59476cf4649999c67 = L.circle(
+                [36.135910047983, 139.331876418061],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_46eb323294991096ff89f96f4cdb3587 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_694f9eeb8352a5cbb12177f34e623203 = $(`<div id="html_694f9eeb8352a5cbb12177f34e623203" style="width: 100.0%; height: 100.0%;">     <b>#38 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: その他<br>     施設: 荒川土手<br>     住所: 熊谷市押切<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_46eb323294991096ff89f96f4cdb3587.setContent(html_694f9eeb8352a5cbb12177f34e623203);
+            
+        
+
+        circle_9071a0d17c11a2d59476cf4649999c67.bindPopup(popup_46eb323294991096ff89f96f4cdb3587)
+        ;
+
+        
+    
+    
+            var circle_marker_aa3435175bbeb7a026f9d1092568d4c5 = L.circleMarker(
+                [36.135910047983, 139.331876418061],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_4efaa01b7a5498d180bc615555901e8d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_34e3c8c4f31727076fff508710980e0e = $(`<div id="html_34e3c8c4f31727076fff508710980e0e" style="width: 100.0%; height: 100.0%;">     <b>#38 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: その他<br>     施設: 荒川土手<br>     住所: 熊谷市押切<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_4efaa01b7a5498d180bc615555901e8d.setContent(html_34e3c8c4f31727076fff508710980e0e);
+            
+        
+
+        circle_marker_aa3435175bbeb7a026f9d1092568d4c5.bindPopup(popup_4efaa01b7a5498d180bc615555901e8d)
+        ;
+
+        
+    
+    
+            circle_marker_aa3435175bbeb7a026f9d1092568d4c5.bindTooltip(
+                `<div>
+                     #38 熊谷市 / 成虫 100
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_b7fe0b79ef61a8f53fbac7fc42165314 = L.circle(
+                [36.1580244332303, 139.386073612103],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_22eca65442bcae75f54897a1934eb8c0 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e729f16a52fa5cdd2fe66f6a54391315 = $(`<div id="html_e729f16a52fa5cdd2fe66f6a54391315" style="width: 100.0%; height: 100.0%;">     <b>#39 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: 個人宅<br>     施設: 個人宅<br>     住所: 熊谷市肥塚２－６－２１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_22eca65442bcae75f54897a1934eb8c0.setContent(html_e729f16a52fa5cdd2fe66f6a54391315);
+            
+        
+
+        circle_b7fe0b79ef61a8f53fbac7fc42165314.bindPopup(popup_22eca65442bcae75f54897a1934eb8c0)
+        ;
+
+        
+    
+    
+            var circle_marker_1ec32a441091a915366eaf5ab861338d = L.circleMarker(
+                [36.1580244332303, 139.386073612103],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_6e88e7160399ca6a8e162068bcc26830 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_967613571670326df3c4e742528e8747 = $(`<div id="html_967613571670326df3c4e742528e8747" style="width: 100.0%; height: 100.0%;">     <b>#39 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: 個人宅<br>     施設: 個人宅<br>     住所: 熊谷市肥塚２－６－２１<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_6e88e7160399ca6a8e162068bcc26830.setContent(html_967613571670326df3c4e742528e8747);
+            
+        
+
+        circle_marker_1ec32a441091a915366eaf5ab861338d.bindPopup(popup_6e88e7160399ca6a8e162068bcc26830)
+        ;
+
+        
+    
+    
+            circle_marker_1ec32a441091a915366eaf5ab861338d.bindTooltip(
+                `<div>
+                     #39 熊谷市 / 成虫 100
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_1e93b86c966bb871d5741032ddcb21ad = L.circle(
+                [36.1542912039759, 139.391188011229],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_e7b52779007818629defc7d8ca6d3d7a = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_ed9dc9da8f4e2088bdb83589ef1c7f7b = $(`<div id="html_ed9dc9da8f4e2088bdb83589ef1c7f7b" style="width: 100.0%; height: 100.0%;">     <b>#40 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: 個人宅<br>     施設: 個人宅<br>     住所: 熊谷市中央１－１４９<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_e7b52779007818629defc7d8ca6d3d7a.setContent(html_ed9dc9da8f4e2088bdb83589ef1c7f7b);
+            
+        
+
+        circle_1e93b86c966bb871d5741032ddcb21ad.bindPopup(popup_e7b52779007818629defc7d8ca6d3d7a)
+        ;
+
+        
+    
+    
+            var circle_marker_2fec61079a58da62a9915e66e4e6b6bf = L.circleMarker(
+                [36.1542912039759, 139.391188011229],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_8c2a9429e871796afa31e27f27463215 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_246ed485096591da7bd6451c551b650b = $(`<div id="html_246ed485096591da7bd6451c551b650b" style="width: 100.0%; height: 100.0%;">     <b>#40 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: 個人宅<br>     施設: 個人宅<br>     住所: 熊谷市中央１－１４９<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_8c2a9429e871796afa31e27f27463215.setContent(html_246ed485096591da7bd6451c551b650b);
+            
+        
+
+        circle_marker_2fec61079a58da62a9915e66e4e6b6bf.bindPopup(popup_8c2a9429e871796afa31e27f27463215)
+        ;
+
+        
+    
+    
+            circle_marker_2fec61079a58da62a9915e66e4e6b6bf.bindTooltip(
+                `<div>
+                     #40 熊谷市 / 成虫 100
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_cf137f9e230369c627754eab9b57aa47 = L.circle(
+                [36.1669251084181, 139.37845346647],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_8617637a32bcd7b5d184c8204c70e121 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_a482436622f897ee71d568234075604f = $(`<div id="html_a482436622f897ee71d568234075604f" style="width: 100.0%; height: 100.0%;">     <b>#41 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: 公園<br>     施設: 大幡公園<br>     住所: 熊谷市柿沼７８０－７８<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_8617637a32bcd7b5d184c8204c70e121.setContent(html_a482436622f897ee71d568234075604f);
+            
+        
+
+        circle_cf137f9e230369c627754eab9b57aa47.bindPopup(popup_8617637a32bcd7b5d184c8204c70e121)
+        ;
+
+        
+    
+    
+            var circle_marker_f35b8f2428c378116c4171eb7dfd087f = L.circleMarker(
+                [36.1669251084181, 139.37845346647],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_52f2bb81a08d3ab190a0d29c74783b5d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_d7aecb3fdaafd4552dc4b3a593dba94f = $(`<div id="html_d7aecb3fdaafd4552dc4b3a593dba94f" style="width: 100.0%; height: 100.0%;">     <b>#41 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: 公園<br>     施設: 大幡公園<br>     住所: 熊谷市柿沼７８０－７８<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_52f2bb81a08d3ab190a0d29c74783b5d.setContent(html_d7aecb3fdaafd4552dc4b3a593dba94f);
+            
+        
+
+        circle_marker_f35b8f2428c378116c4171eb7dfd087f.bindPopup(popup_52f2bb81a08d3ab190a0d29c74783b5d)
+        ;
+
+        
+    
+    
+            circle_marker_f35b8f2428c378116c4171eb7dfd087f.bindTooltip(
+                `<div>
+                     #41 熊谷市 / 成虫 100
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_cab66a3d0c9373b794f0489dabf39790 = L.circle(
+                [36.2186841543258, 139.390175695656],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_a9b8a913c951117ee5c5f4c9d63d7118 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_9562eafde355d6a567da54a9fff20060 = $(`<div id="html_9562eafde355d6a567da54a9fff20060" style="width: 100.0%; height: 100.0%;">     <b>#42 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: その他<br>     施設: 備前堀<br>     住所: 熊谷市八ツ口<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_a9b8a913c951117ee5c5f4c9d63d7118.setContent(html_9562eafde355d6a567da54a9fff20060);
+            
+        
+
+        circle_cab66a3d0c9373b794f0489dabf39790.bindPopup(popup_a9b8a913c951117ee5c5f4c9d63d7118)
+        ;
+
+        
+    
+    
+            var circle_marker_c383c7120998bccfc3920a79c319c26f = L.circleMarker(
+                [36.2186841543258, 139.390175695656],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_3680924553ddce18cdca9e5f25036942 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_2926a9b5d68e459ccadb1cd04c8bdef2 = $(`<div id="html_2926a9b5d68e459ccadb1cd04c8bdef2" style="width: 100.0%; height: 100.0%;">     <b>#42 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: その他<br>     施設: 備前堀<br>     住所: 熊谷市八ツ口<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_3680924553ddce18cdca9e5f25036942.setContent(html_2926a9b5d68e459ccadb1cd04c8bdef2);
+            
+        
+
+        circle_marker_c383c7120998bccfc3920a79c319c26f.bindPopup(popup_3680924553ddce18cdca9e5f25036942)
+        ;
+
+        
+    
+    
+            circle_marker_c383c7120998bccfc3920a79c319c26f.bindTooltip(
+                `<div>
+                     #42 熊谷市 / 成虫 100
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_37ec8cbd192a29e7f48720c183128fe5 = L.circle(
+                [36.2153836669133, 139.389383599409],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.12, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_7740c19f7d0ecc5f414a58595fcca793 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0669c275298385b1861d64f123e9e3d2 = $(`<div id="html_0669c275298385b1861d64f123e9e3d2" style="width: 100.0%; height: 100.0%;">     <b>#43 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: 個人宅<br>     施設: 個人宅（畑の木）<br>     住所: 熊谷市八ツ口９４７<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_7740c19f7d0ecc5f414a58595fcca793.setContent(html_0669c275298385b1861d64f123e9e3d2);
+            
+        
+
+        circle_37ec8cbd192a29e7f48720c183128fe5.bindPopup(popup_7740c19f7d0ecc5f414a58595fcca793)
+        ;
+
+        
+    
+    
+            var circle_marker_5c1a8623418770f27385ae25fde93acf = L.circleMarker(
+                [36.2153836669133, 139.389383599409],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_f1e5763ce15790f647331b948a22257d);
+        
+    
+        var popup_64b1eeff9ff80ca302b69ba5c68a1212 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_8c3157b645523994e8e69b5bec98c813 = $(`<div id="html_8c3157b645523994e8e69b5bec98c813" style="width: 100.0%; height: 100.0%;">     <b>#43 熊谷市</b><br>     予測半径: 1000m<br>     成虫頭数: 100<br>     施設区分: 個人宅<br>     施設: 個人宅（畑の木）<br>     住所: 熊谷市八ツ口９４７<br>     樹種: ―<br>     確認日: 2025-03-04     </div>`)[0];
+                popup_64b1eeff9ff80ca302b69ba5c68a1212.setContent(html_8c3157b645523994e8e69b5bec98c813);
+            
+        
+
+        circle_marker_5c1a8623418770f27385ae25fde93acf.bindPopup(popup_64b1eeff9ff80ca302b69ba5c68a1212)
+        ;
+
+        
+    
+    
+            circle_marker_5c1a8623418770f27385ae25fde93acf.bindTooltip(
+                `<div>
+                     #43 熊谷市 / 成虫 100
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,1181 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 618,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.426070067099,
+          35.9249582604345
+        ]
+      },
+      "properties": {
+        "objectid": 618,
+        "globalid": "a24e1068-0a23-4255-8453-d33a5304a6e8",
+        "day": 1775444400000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 2,
+        "hiki": null,
+        "年度": null,
+        "field_13": "川越市お伊勢塚公園北側、小畔川方面の車道に沿った公園内桜並木の根本",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 619,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805079804428,
+          35.9062554018915
+        ]
+      },
+      "properties": {
+        "objectid": 619,
+        "globalid": "3c0dca06-0d45-46fd-8df5-0e594b54183a",
+        "day": 1775185200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "脱出孔,other",
+        "naiyo_other": "樹液",
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "新方川右岸桜並木　鷹匠橋上流約80m（越谷市花田４丁目２２）",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 620,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.520244299998,
+          36.0263860999994
+        ]
+      },
+      "properties": {
+        "objectid": 620,
+        "globalid": "4f560f89-b746-498c-8237-d0c467aa4add",
+        "day": 1776135600000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "北本市",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 621,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.51948051017,
+          36.0263288687756
+        ]
+      },
+      "properties": {
+        "objectid": 621,
+        "globalid": "adb09977-87af-429a-801d-0193f533fb05",
+        "day": 1776222000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "北本市高尾１丁目",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 622,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.646028299998,
+          35.8467621999994
+        ]
+      },
+      "properties": {
+        "objectid": 622,
+        "globalid": "465130a3-16d5-4974-83c3-c3c68d76bc5c",
+        "day": 1776222000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "未発生確認",
+        "naiyo": "発生していないのを確認",
+        "naiyo_other": null,
+        "hon": null,
+        "hiki": null,
+        "年度": null,
+        "field_13": "武蔵浦和",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 623,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.530222075003,
+          36.030063725241
+        ]
+      },
+      "properties": {
+        "objectid": 623,
+        "globalid": "f8549103-2d64-4f11-8c4e-9d7eb183cb4a",
+        "day": 1776654000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "北本市西高尾",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 624,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.530531191463,
+          36.0302187084976
+        ]
+      },
+      "properties": {
+        "objectid": 624,
+        "globalid": "946545d9-88b2-4e66-8858-5b9913127408",
+        "day": 1776654000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "北本市中央",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 625,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.530624099998,
+          36.0303568999994
+        ]
+      },
+      "properties": {
+        "objectid": 625,
+        "globalid": "180ce9ac-64d4-439e-82b9-60e3fa4d46e9",
+        "day": 1776654000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "北本市中央",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 626,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.531136975328,
+          36.030524595465
+        ]
+      },
+      "properties": {
+        "objectid": 626,
+        "globalid": "72230860-5055-4b7d-860d-f8d00f5ee7d4",
+        "day": 1776654000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "北本市中央",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 627,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.531259840943,
+          36.0304826896642
+        ]
+      },
+      "properties": {
+        "objectid": 627,
+        "globalid": "e7604aa2-033c-456d-8a24-e17c63465e98",
+        "day": 1776654000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "北本市中央　西中央通り",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 628,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.04924550497,
+          35.9832393410808
+        ]
+      },
+      "properties": {
+        "objectid": 628,
+        "globalid": "d759fa3e-d999-4e05-8b69-0af2fe7f3128",
+        "day": 1773975600000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 3,
+        "hiki": 0,
+        "年度": null,
+        "field_13": "秩父市久那",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 629,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.490699987213,
+          35.9205020197194
+        ]
+      },
+      "properties": {
+        "objectid": 629,
+        "globalid": "e069aeb1-4402-4916-8c98-38e6d0cd8a8b",
+        "day": 1775271600000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "川越市浮島公園",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 630,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.24378087,
+          35.9052801600001
+        ]
+      },
+      "properties": {
+        "objectid": 630,
+        "globalid": "d21d5ef6-6331-45f3-8279-9a732d6870b2",
+        "day": 1753326000000,
+        "tree": "ウメ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,成虫",
+        "naiyo_other": null,
+        "hon": 4,
+        "hiki": 1,
+        "年度": null,
+        "field_13": "飯能市井上67、75・ふれあい農園施設",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 632,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.521859499998,
+          36.0268134999994
+        ]
+      },
+      "properties": {
+        "objectid": 632,
+        "globalid": "9958c04a-6f01-4422-89a7-0248d5166995",
+        "day": 1778209200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "埼玉県北本市",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 633,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.521959299998,
+          36.0268291999994
+        ]
+      },
+      "properties": {
+        "objectid": 633,
+        "globalid": "2638a1af-8b78-4372-8b5b-6ad3eda7123b",
+        "day": 1778209200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,other",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "埼玉県北本市",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 635,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.38258877676,
+          35.9256164870204
+        ]
+      },
+      "properties": {
+        "objectid": 635,
+        "globalid": "e12aa6bd-fa27-4765-84dc-3f57b1ce3f4e",
+        "day": 1776654000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,成虫,脱出孔,枯死",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": 10,
+        "年度": null,
+        "field_13": "鶴ヶ島市大字三ツ木923　愛の家グループホーム前",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 636,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.716280726582,
+          36.0277919183504
+        ]
+      },
+      "properties": {
+        "objectid": 636,
+        "globalid": "cfb288b3-6a4c-4c85-8576-590950cf2a8a",
+        "day": 1779246000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": 0,
+        "年度": null,
+        "field_13": "〒345-0826 埼玉県南埼玉郡宮代町学園台４丁目１",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 637,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.709237578325,
+          36.0269587497777
+        ]
+      },
+      "properties": {
+        "objectid": 637,
+        "globalid": "5ae69f6c-117a-4fb3-85d4-fca346bf78cb",
+        "day": 1779246000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": 0,
+        "年度": null,
+        "field_13": "〒345-0826 埼玉県南埼玉郡宮代町学園台４丁目１",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 638,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.74269,
+          36.00176
+        ]
+      },
+      "properties": {
+        "objectid": 638,
+        "globalid": "77f7277a-65a8-4409-8eb6-be74dd46b217",
+        "day": 1779591600000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,脱出孔,枯死",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": 0,
+        "年度": null,
+        "field_13": "宮代町川端集会所の側",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 639,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.123369353827,
+          36.1284048169064
+        ]
+      },
+      "properties": {
+        "objectid": 639,
+        "globalid": "f9bdb116-88c3-4fdb-8a75-1356817c71a7",
+        "day": 1780023600000,
+        "tree": "モモ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 3,
+        "hiki": 0,
+        "年度": null,
+        "field_13": "埼玉県秩父郡長瀞町大字岩田510-3",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.123774382285,
+          36.1290547131483
+        ]
+      },
+      "properties": {
+        "objectid": 640,
+        "globalid": "2ec9a225-0642-47b4-8252-8215fbc4c9bf",
+        "day": 1780023600000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": 0,
+        "年度": null,
+        "field_13": "埼玉県秩父郡長瀞町大字岩田622-1",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.143222325337,
+          36.2328969276527
+        ]
+      },
+      "properties": {
+        "objectid": 642,
+        "globalid": "68476d7e-30df-4893-8a02-1bce81887575",
+        "day": 1780196400000,
+        "tree": "スモモ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,幼虫",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "上里町七本木３１４２－１４",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 643,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.152251868333,
+          36.2597232279414
+        ]
+      },
+      "properties": {
+        "objectid": 643,
+        "globalid": "09d31bc6-d29b-4a09-8a7e-e1a4a2bfe036",
+        "day": 1780282800000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 3,
+        "hiki": null,
+        "年度": null,
+        "field_13": "児玉郡上里町神保原　番地施設名不明",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 644,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.522176599998,
+          36.0271783999994
+        ]
+      },
+      "properties": {
+        "objectid": 644,
+        "globalid": "df838902-6393-4c91-85f3-34ca48ada7f0",
+        "day": 1780282800000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "北本市高尾",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 645,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.655494030422,
+          36.1009510229561
+        ]
+      },
+      "properties": {
+        "objectid": 645,
+        "globalid": "b4cd3553-7aff-4296-872b-926255929e6e",
+        "day": 1778986800000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "久喜市鷲宮1-7-20",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 647,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.829340001155,
+          35.9206131243413
+        ]
+      },
+      "properties": {
+        "objectid": 647,
+        "globalid": "cc70d970-1532-4f16-8198-d3ee00802a2b",
+        "day": 1780282800000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 3,
+        "hiki": 3,
+        "年度": null,
+        "field_13": "松伏総合公園",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 648,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.035332496325,
+          36.045257388901
+        ]
+      },
+      "properties": {
+        "objectid": 648,
+        "globalid": "ea936fd8-d076-435c-80ed-abf58be4445e",
+        "day": 1780282800000,
+        "tree": "ウメ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,枯死",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "秩父市下吉田7447 美容室ルナ敷地内",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 649,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.696382266899,
+          36.053527478678
+        ]
+      },
+      "properties": {
+        "objectid": 649,
+        "globalid": "a6c932f6-51aa-4002-85be-c7a94b03ba51",
+        "day": 1780282800000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": null,
+        "hiki": null,
+        "年度": null,
+        "field_13": "宮代町総合運動公園",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 650,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.44454113817,
+          35.9100398042961
+        ]
+      },
+      "properties": {
+        "objectid": 650,
+        "globalid": "9113bc4b-14cb-4e84-899c-ad662f572fe1",
+        "day": 1780282800000,
+        "tree": "other",
+        "tree_other": "海堂",
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "埼玉県北本市東間4-158-7",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 652,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.251904444425,
+          36.0622467771773
+        ]
+      },
+      "properties": {
+        "objectid": 652,
+        "globalid": "3a4f3439-96a7-474a-8a64-603b94f4f0a1",
+        "day": 1780369200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": null,
+        "hiki": null,
+        "年度": null,
+        "field_13": "蟹沢沼緑地",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 653,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.290166692558,
+          36.0570084727302
+        ]
+      },
+      "properties": {
+        "objectid": 653,
+        "globalid": "d6f78add-6533-4926-8c17-df89eace2a71",
+        "day": 1780369200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 4,
+        "hiki": 0,
+        "年度": null,
+        "field_13": "小川町東小川3丁目第６公園",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 654,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.323756275938,
+          36.1712063611872
+        ]
+      },
+      "properties": {
+        "objectid": 654,
+        "globalid": "18db9eb6-fd03-41aa-8202-a6d41bd23aca",
+        "day": 1780369200000,
+        "tree": "ウメ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": 0,
+        "年度": null,
+        "field_13": "熊谷市籠原南3-238",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 655,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.500158884103,
+          36.0625799655504
+        ]
+      },
+      "properties": {
+        "objectid": 655,
+        "globalid": "70e908f9-43a4-4d65-8f92-753937c8ac14",
+        "day": 1780369200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,枯死",
+        "naiyo_other": null,
+        "hon": 3,
+        "hiki": null,
+        "年度": null,
+        "field_13": "鴻巣市大間二丁目1号公園",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 656,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56659243301,
+          36.1081081081075
+        ]
+      },
+      "properties": {
+        "objectid": 656,
+        "globalid": "095a1f94-e4f6-48d5-85b9-3bef4c855ee7",
+        "day": 1688353200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,脱出孔",
+        "naiyo_other": null,
+        "hon": 999,
+        "hiki": 999,
+        "年度": null,
+        "field_13": "藤アリ、中央公園、玉敷公園、他市内全般",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 657,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.239508015681,
+          36.071722151745
+        ]
+      },
+      "properties": {
+        "objectid": 657,
+        "globalid": "09c90192-78dc-4575-8b28-e934ef08c4f9",
+        "day": 1780369200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,脱出孔",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": null,
+        "年度": null,
+        "field_13": "小川町靱負577-5",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 658,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.834187600668,
+          35.8811879397241
+        ]
+      },
+      "properties": {
+        "objectid": 658,
+        "globalid": "22f7bb2a-0511-410f-8173-ad20d04cbaf8",
+        "day": 1780369200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,成虫,脱出孔",
+        "naiyo_other": null,
+        "hon": 4,
+        "hiki": 3,
+        "年度": null,
+        "field_13": "越谷市東町３丁目１００−１日枝神社",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 659,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.834880128365,
+          35.8724880450155
+        ]
+      },
+      "properties": {
+        "objectid": 659,
+        "globalid": "d7fa65ee-3df2-4ae5-83cd-8ffbbdf2a54f",
+        "day": 1780369200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,成虫,脱出孔",
+        "naiyo_other": null,
+        "hon": null,
+        "hiki": 2,
+        "年度": null,
+        "field_13": "埼玉県越谷市東町５丁目２５１伊南理神社",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 660,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.167161697884,
+          36.1724068430182
+        ]
+      },
+      "properties": {
+        "objectid": 660,
+        "globalid": "9185a3cf-c105-4732-8734-8cbe6d243db1",
+        "day": 1757818800000,
+        "tree": "スモモ,other",
+        "tree_other": "さくらんぼ",
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 2,
+        "hiki": 0,
+        "年度": null,
+        "field_13": "埼玉県児玉郡美里町駒衣",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 661,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4643601,
+          36.0400325100001
+        ]
+      },
+      "properties": {
+        "objectid": 661,
+        "globalid": "34833df7-dd3a-4d16-8598-8892542d02a9",
+        "day": 1775617200000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,成虫,枯死",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": 5,
+        "年度": null,
+        "field_13": "埼玉県比企郡吉見町谷口",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 662,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7239,
+          36.02873
+        ]
+      },
+      "properties": {
+        "objectid": 662,
+        "globalid": "3fad1757-4f8c-4ebc-84ef-78b710d83bc2",
+        "day": 1780542000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス",
+        "naiyo_other": null,
+        "hon": 1,
+        "hiki": 0,
+        "年度": null,
+        "field_13": "杉戸町4丁目稲荷神社側",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 663,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.834142110467,
+          35.8811663059239
+        ]
+      },
+      "properties": {
+        "objectid": 663,
+        "globalid": "081ad2e9-0099-4e21-88c6-f55f7d80d872",
+        "day": 1780542000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,成虫,脱出孔",
+        "naiyo_other": null,
+        "hon": 4,
+        "hiki": 2,
+        "年度": null,
+        "field_13": "埼玉県越谷市東町３丁目１００−１  日枝神社",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 664,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.834862535751,
+          35.8723674924981
+        ]
+      },
+      "properties": {
+        "objectid": 664,
+        "globalid": "051551c5-7ce7-401d-8492-de7a8998afa3",
+        "day": 1780542000000,
+        "tree": "サクラ",
+        "tree_other": null,
+        "hasei": "発生確認（成虫・フラス等確認）",
+        "naiyo": "フラス,成虫,脱出孔",
+        "naiyo_other": null,
+        "hon": null,
+        "hiki": 2,
+        "年度": null,
+        "field_13": "埼玉県越谷市東町３丁目１００−１  日枝神社",
+        "year": "2025",
+        "source_type": "citizen_report_2025",
+        "source_layer": "https://services9.arcgis.com/n65w8AXGaYPTqFYI/arcgis/rest/services/クビアカツヤカミキリ発見大調査公開用/FeatureServer/0"
+      }
+    }
+  ]
+}
