@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>埼玉県クビアカツヤカミキリ発生確認マップ分析</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.7;
+      color: #222;
+    }
+    h1, h2 {
+      line-height: 1.3;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 18px;
+      margin: 16px 0;
+    }
+    a {
+      color: #0b57d0;
+    }
+    .note {
+      background: #f7f7f7;
+      padding: 14px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>埼玉県クビアカツヤカミキリ発生確認マップ分析</h1>
+
+  <p>
+    埼玉県の公開ArcGISデータをもとに、クビアカツヤカミキリの発生確認地点を整理・可視化したプロジェクトです。
+  </p>
+
+  <div class="note">
+    <strong>注意:</strong>
+    本ページは公開データをもとにした個人の分析です。防除・通報・捕殺等は自治体の案内に従ってください。
+    個人宅等の詳細な探索を目的とした利用は避けてください。
+  </div>
+
+  <h2>公開マップ</h2>
+
+  <div class="card">
+    <h3>2018〜2024年度 発生確認地点</h3>
+    <p>埼玉県公式ArcGISから取得した発生確認地点を年度横断で表示した地図です。</p>
+    <p><a href="maps/kubiaka_map.html">地図を開く</a></p>
+  </div>
+
+  <div class="card">
+    <h3>2024年度 ホットスポット</h3>
+    <p>2024年度の発生確認地点のうち、主要市町村を中心に表示した地図です。</p>
+    <p><a href="maps/kubiaka_hotspots_2024.html">地図を開く</a></p>
+  </div>
+
+  <div class="card">
+    <h3>2024行政確認 + 2025市民報告</h3>
+    <p>2024年度行政確認地点と、2025年度スマホ報告公開データを重ねた地図です。</p>
+    <p><a href="maps/kubiaka_latest_2024_2025.html">地図を開く</a></p>
+  </div>
+
+  <h2>主な集計</h2>
+
+  <ul>
+    <li>2018〜2024年度の発生確認地点: 3,164地点</li>
+    <li>2024年度の発生確認地点: 929地点</li>
+    <li>2024年度上位市町村: 加須市、熊谷市、行田市、鴻巣市、本庄市</li>
+    <li>2025年度スマホ報告公開データ: 42件</li>
+  </ul>
+
+  <h2>リポジトリ</h2>
+  <p>
+    コードと分析メモは GitHub リポジトリで管理しています。
+  </p>
+</body>
+</html>
