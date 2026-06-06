@@ -25,11 +25,13 @@ frontier = []
 
 for f in f2024:
     lon, lat = f["geometry"]["coordinates"]
-    dist, _ = tree.query(np.radians([[lat, lon]]), k=1)
+    dist, idx = tree.query(np.radians([[lat, lon]]), k=1)
     km = float(dist[0][0] * 6371)
+    nearest_2018 = f2018[int(idx[0][0])]
 
     p = f["properties"]
     p["frontier_distance_km"] = km
+    p["nearest_2018_coordinates"] = nearest_2018["geometry"]["coordinates"]
 
     # 公開版では個人宅を除外
     if p.get("施設区分") == "個人宅":
@@ -97,6 +99,19 @@ for rank, f in enumerate(top_frontier, start=1):
     2018地点からの最近傍距離: {distance:.2f} km
     """
 
+    nearest_lon, nearest_lat = p["nearest_2018_coordinates"]
+
+    folium.PolyLine(
+        locations=[
+            [nearest_lat, nearest_lon],
+            [lat, lon],
+        ],
+        color="blue",
+        weight=2,
+        opacity=0.35,
+        tooltip=f"2018地点から {distance:.1f} km",
+    ).add_to(m)
+
     folium.CircleMarker(
         location=[lat, lon],
         radius=radius,
@@ -108,6 +123,32 @@ for rank, f in enumerate(top_frontier, start=1):
     ).add_to(m)
 
 folium.LayerControl().add_to(m)
+
+legend_html = """
+<div style="
+position: fixed;
+bottom: 30px;
+left: 30px;
+z-index: 9999;
+background: white;
+padding: 12px;
+border: 1px solid #aaa;
+border-radius: 8px;
+font-size: 14px;
+line-height: 1.6;
+">
+<b>拡散前線マップ</b><br>
+<span style="color: gray;">●</span> 2018年の初期確認地点<br>
+<span style="color: blue;">●</span> 2024年の前線候補<br>
+<span style="color: blue;">━</span> 直前年までの最寄り確認地点との距離<br>
+<br>
+各年度の地点について、それ以前の年度に確認された地点から
+どれだけ離れているかを計算しています。<br>
+距離が大きい地点は、その年に既知分布の外側で確認された
+拡散前線候補です。
+</div>
+"""
+m.get_root().html.add_child(folium.Element(legend_html))
 
 m.save(OUTPUT)
 
